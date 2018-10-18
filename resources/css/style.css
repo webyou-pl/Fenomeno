@@ -14,7 +14,7 @@ color:   #
 html,
 body{
     background-color:#fff;
-    color: #555;
+    color: #ffffff;
     font-family:'Lato', 'Arial', 'sans-serif';
     font-weight:300;
     font-size:20px;
@@ -49,15 +49,37 @@ header{
 /* OPENING SITE */
 
 h1{
-    font-size: 250%
-    font-weight:400;
+    font-size: 250%;
+    font-weight: 400;
     text-transform: uppercase;
-    position:absolute;
+    position:fixed;
     margin-top: 15%;
-    right: 25%;
+    right: 10%;
     letter-spacing: 1px;
 }
+.opening-mid{
+    font-weight: 300;
+    text-transform: uppercase;
+    position:absolute;
+    left: 25%;
+    margin-top:30%; 
+}
+h2{
+    font-size: 180%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 40%;
+    
+  
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top:2px;
+    margin-right: 45%;
 
+}
 
 
 
