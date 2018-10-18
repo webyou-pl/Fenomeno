@@ -78,6 +78,16 @@ a:hover{
     border-bottom: 1px solid #0db095;
 }
 
+.socjal a:hover{
+    border-bottom: none;
+}
+.languages a:hover{
+    border-bottom: none;
+}
+.logo a:hover{
+    border-bottom: none;
+}
+
 .color_awarded_one{
     color: #0db095;
 }
@@ -121,6 +131,7 @@ a:hover{
 
 .logo > h1{
     display: inline;
+    position: static;
 }
 
 .logo_img, .logo_text{
