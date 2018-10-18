@@ -52,7 +52,7 @@ h1{
     font-size: 250%;
     font-weight: 400;
     text-transform: uppercase;
-    position:fixed;
+    position:absolute;
     margin-top: 15%;
     right: 10%;
     letter-spacing: 1px;
@@ -81,8 +81,27 @@ h3{
 
 }
 
+/* Buttons */
 
+/* ICONS */
+.icon-big{
+    font-size: 250%
+}
 
+/* Arrows */
+
+.arrow{
+    color: #fff;
+
+    letter-spacing: 550px;
+    display: inline-block;
+    font-size: 120%;
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    
+}
 
 
 
