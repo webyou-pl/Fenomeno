@@ -89,10 +89,9 @@ h3{
 
 /* ICONS */
 .icon-big{
-     font-size: 350%;
+    font-size: 350%;
     display:block;
     color:#fff;
-    margin-bottom: 10px;
     text-align: center;
 
 }
@@ -110,8 +109,6 @@ h3{
 .arrow2 {
     color: #fff;
     margin-top: 45%;
-    border: 0;
- 
 }
 .arrow1{
     margin-right: 50%;
