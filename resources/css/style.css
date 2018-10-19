@@ -13,7 +13,8 @@ color:   #
 }
 html,
 body{
-    color: #555;
+    background-color:#fff;
+    color: #ffffff;
     font-family:'Lato', 'Arial', 'sans-serif';
     font-weight:300;
     font-size:20px;
@@ -43,7 +44,7 @@ body{
 
 
 header{
-    background-image:url(img/women_gym1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.51)),url(img/action-aerial-athletes-1171084.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -56,15 +57,37 @@ header{
 /* OPENING SITE */
 
 h1{
-    font-size: 250%
-    font-weight:400;
+    font-size: 250%;
+    font-weight: 400;
     text-transform: uppercase;
     position:absolute;
-    margin-top: 15%;
-    right: 25%;
+    margin-top: 18%;
+    right: 20%;
     letter-spacing: 1px;
 }
+.opening-mid{
+    font-weight: 300;
+    text-transform: uppercase;
+    position:absolute;
+    left: 20%;
+    margin-top:24%; 
+}
+h2{
+    font-size: 180%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 40%;
+    
+  
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top:2px;
+    margin-right: 45%;
 
+}
 
 /* section 1 and section 2 */
 
@@ -86,6 +109,12 @@ a:hover{
     color: #cffb8a;
 }
 
+/* ICONS */
+.icon-big{
+    font-size: 350%;
+    display:block;
+    color:#fff;
+    text-align: center;
 
 .lan_con{
     display: flex;
@@ -97,7 +126,11 @@ a:hover{
     text-transform: uppercase;
     border-bottom: 1px solid #000;
 }
-
+.column {
+ 
+  float:left;
+  width: 50%;
+}
 .tel, .email{
     display: inline;
     margin: 0 0.5rem;
@@ -111,7 +144,19 @@ a:hover{
     align-items: center;
     padding: 1.2rem 0.9rem;
 }
+/* Arrows main screen*/
 
+.arrow1,
+.arrow2 {
+    color: #fff;
+    margin-top: 45%;
+}
+.arrow1{
+    margin-right: 50%;
+}
+.arrow2{
+    margin-left: 50%
+}
 .logo{
     display: inline;
     text-transform: uppercase;
@@ -129,17 +174,6 @@ a:hover{
 
 .socjal{
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
