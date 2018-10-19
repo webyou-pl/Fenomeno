@@ -18,16 +18,8 @@ body{
     font-family:'Lato', 'Arial', 'sans-serif';
     font-weight:300;
     font-size:20px;
-    text-rendering:optimizeLegibility;
-    overflow-x:hidden;
-
-    background-color: black;
-    background-image:  url(img/women_gym1.jpg);
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-    background-position: center; 
-    height: 100vh;
-    margin: 0;
+    /* text-rendering:optimizeLegibility;
+    overflow-x:hidden; */
 }
 
 /* IMPORTANT TO CLEAR FLOATS OTHEWISE YOU WIIL NOT ACHIVE SAVE BETWEEN 8 PICTURES SECTION AND HOW IT WORKS SECTION */
@@ -91,14 +83,24 @@ h3{
 
 /* section 1 and section 2 */
 
-a:link, a:visited{
+.top_header a:link, a:visited{
     text-decoration: none;
     color: #fff;
 }
 
-a:hover{
-    color: #cffb8a;
-    border-bottom: 1px solid #0db095;
+.top_header a:hover{
+    color: #000;
+    border-bottom: 2px solid #0db095;
+}
+
+.socjal a:hover{
+    border-bottom: none;
+}
+.languages a:hover{
+    border-bottom: none;
+}
+.logo a:hover{
+    border-bottom: none;
 }
 
 .color_awarded_one{
@@ -109,6 +111,12 @@ a:hover{
     color: #cffb8a;
 }
 
+.top_header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 /* ICONS */
 .icon-big{
     font-size: 350%;
@@ -118,6 +126,7 @@ a:hover{
 
 .lan_con{
     display: flex;
+    position: relative;
     flex: 1;
     justify-content: space-between;
     align-items: center;
@@ -161,19 +170,47 @@ a:hover{
     display: inline;
     text-transform: uppercase;
     display: flex;
-        align-items: center;
+    align-items: center;
+    max-height: 90px;
+}
+
+.logo img{
+    max-height: 70px;
+    height: 100%;
+    width: auto;
 }
 
 .logo > h1{
     display: inline;
+    position: static;
 }
 
 .logo_img, .logo_text{
- margin: 0 1rem;
+    margin: 0 1rem;
 }
 
-.socjal{
+.languages .socjal .logo, a{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
 }
+
+.languages .socjal .logo, a:hover{
+    opacity: .7;
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
