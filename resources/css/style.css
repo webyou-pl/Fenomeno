@@ -215,3 +215,28 @@ h3{
     transition-timing-function: ease-out;
     transition-duration: 250ms;
 }
+
+/* Sertion 5 start */
+.down_footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.3rem 0.9rem;
+    text-align: center;
+    font-size: .7rem;
+    color: #000;
+}
+
+.partners{
+    background-color: rgba(5, 0, 104, 0.4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0.9rem;
+}
