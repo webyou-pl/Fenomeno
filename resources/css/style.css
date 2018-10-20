@@ -18,8 +18,8 @@ body{
     font-family:'Lato', 'Arial', 'sans-serif';
     font-weight:300;
     font-size:20px;
-    /* text-rendering:optimizeLegibility;
-    overflow-x:hidden; */
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
 }
 
 /* IMPORTANT TO CLEAR FLOATS OTHEWISE YOU WIIL NOT ACHIVE SAVE BETWEEN 8 PICTURES SECTION AND HOW IT WORKS SECTION */
@@ -81,6 +81,42 @@ h3{
 
 }
 
+
+/* Buttons */
+
+
+
+
+/* ICONS */
+.icon-big{
+    font-size: 350%;
+    display:block;
+    color:#fff;
+    text-align: center;
+
+}
+.column {
+ 
+  float:left;
+  width: 50%;
+
+  
+}
+
+/* Arrows main screen*/
+
+.arrow1,
+.arrow2 {
+    color: #fff;
+    margin-top: 45%;
+}
+.arrow1{
+    margin-right: 50%;
+}
+.arrow2{
+    margin-left: 50%
+}
+
 /* section 1 and section 2 */
 
 .top_header a:link, a:visited{
@@ -117,12 +153,6 @@ h3{
     top: 0;
     left: 0;
 }
-/* ICONS */
-.icon-big{
-    font-size: 350%;
-    display:block;
-    color:#fff;
-    text-align: center;
 
 .lan_con{
     display: flex;
@@ -135,11 +165,7 @@ h3{
     text-transform: uppercase;
     border-bottom: 1px solid #000;
 }
-.column {
- 
-  float:left;
-  width: 50%;
-}
+
 .tel, .email{
     display: inline;
     margin: 0 0.5rem;
@@ -153,19 +179,7 @@ h3{
     align-items: center;
     padding: 1.2rem 0.9rem;
 }
-/* Arrows main screen*/
 
-.arrow1,
-.arrow2 {
-    color: #fff;
-    margin-top: 45%;
-}
-.arrow1{
-    margin-right: 50%;
-}
-.arrow2{
-    margin-left: 50%
-}
 .logo{
     display: inline;
     text-transform: uppercase;
@@ -201,21 +215,3 @@ h3{
     transition-timing-function: ease-out;
     transition-duration: 250ms;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
