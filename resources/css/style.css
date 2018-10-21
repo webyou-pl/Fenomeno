@@ -240,3 +240,47 @@ h3{
     align-items: center;
     padding: 1.2rem 0.9rem;
 }
+/* footer slider */
+        .down_footer .footer_slides{
+            position:relative;
+            margin:0 auto;
+            top:0px;
+            left:0px;
+            width:980px;
+            height:100px;
+        }
+
+        .down_footer .loading img{
+            margin-top:-19px;
+            position:relative;
+            top:50%;
+            width:38px;
+            height:38px
+        }
+
+        .down_footer .slider{
+            cursor:default;
+            position:relative;
+            top:0px;
+            left:0px;
+            width:980px;
+            height:100px;
+            overflow:hidden;
+        }
+
+        .down_footer #img_slider {
+            opacity: 0.6;
+            z-index: 1;
+            height: 10px;
+        }
+
+        .down_footer #img_slider:hover{
+            opacity: 1;
+        }
+
+        .down_footer .text_sliders{
+            position: absolute;
+            top: -13px;
+            left: -22px;
+            z-index: 2;
+        }
