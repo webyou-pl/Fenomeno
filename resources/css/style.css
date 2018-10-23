@@ -80,7 +80,7 @@ h1{
     font-weight: 400;
     text-transform: uppercase;
     position:absolute;
-    margin-top: 18%;
+    margin-top: 20%;
     right: 20%;
     letter-spacing: 1px;
 }
@@ -89,7 +89,7 @@ h1{
     text-transform: uppercase;
     position:absolute;
     left: 20%;
-    margin-top:24%; 
+    margin-top:30%; 
 }
 h2{
     font-size: 180%;
@@ -132,7 +132,7 @@ h3{
 .arrow1,
 .arrow2 {
     color: #fff;
-    margin-top: 45%;
+    margin-top: 50%;
 }
 .arrow1{
     margin-right: 50%;
