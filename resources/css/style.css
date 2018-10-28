@@ -32,13 +32,25 @@ body{
 }
 
 /******************BACKGROUNDS*******************/
-
-.photo-background{
+.first{
+    background-image: url(img/action-aerial-athletes-1171084.jpg);
+}
+.second{
+    background-image: url(img/dawn-dusk-field-149356.jpg);
+}
+.third{
+    background-image: url(img/action-activity-adult-262524.jpg);
+}
+.photo-background {
     
-   /* Set rules to fill background */
-    height: auto;
+   
+    /* Set rules to fill background */
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
     width: 100%;
-    
+    bottom:0;
 	
   /* Set up proportionate scaling */
 
@@ -53,7 +65,9 @@ body{
    filter: brightness(0.6);
 }
 
-/* Slideshow container */
+/*********** Slideshow container ************/
+.mySlides {display: none}
+
 .slideshow-container {
   position: relative;
   margin: auto;
