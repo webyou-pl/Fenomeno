@@ -62,7 +62,7 @@ body{
     z-index: -10;
     
     /* Set up color */
-   filter: brightness(0.6);
+   filter: brightness(0.5);
 }
 
 /*********** Slideshow container ************/
@@ -75,8 +75,6 @@ body{
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  top: 50%;
-  width: auto;
   padding: 1px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -95,13 +93,14 @@ body{
 
 /* ICONS */
 .icon-big{
-    padding: 0px;
-    border: 30px;
-    position:static;
+    width: 100px;
+   
     font-size: 350%;
     display:block;
-    color:#fff;
     text-align: center;
+    margin-top: 200px;
+    border-radius: 30px;
+
     
 
 }
@@ -118,10 +117,10 @@ body{
     margin-top: 50%;
 }
 .arrow1{
-    margin-right: 50%;
+    margin-left:20%; 
 }
 .arrow2{
-    margin-left: 50%
+    margin-left:70%; 
 }
 
 
