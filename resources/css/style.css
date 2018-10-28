@@ -13,13 +13,12 @@ color:   #
 }
 html,
 body{
-    background-color:#fff;
-    color: #ffffff;
     font-family:'Lato', 'Arial', 'sans-serif';
     font-weight:300;
     font-size:20px;
     text-rendering:optimizeLegibility;
     overflow-x:hidden;
+    color: #ffff;
 }
 
 /* IMPORTANT TO CLEAR FLOATS OTHEWISE YOU WIIL NOT ACHIVE SAVE BETWEEN 8 PICTURES SECTION AND HOW IT WORKS SECTION */
@@ -32,17 +31,116 @@ body{
     visibility: hidden;
 }
 
-/*BACKGROUNDS*/
+/******************BACKGROUNDS*******************/
 
+.photo-background{
+    
+   /* Set rules to fill background */
+    height: auto;
+    width: 100%;
+    
+	
+  /* Set up proportionate scaling */
 
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.51)),url(img/action-aerial-athletes-1171084.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    background-attachment: fixed;
- 
+	
+  /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    
+    /* Set up color */
+   filter: brightness(0.6);
 }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 1px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* ICONS */
+.icon-big{
+    padding: 0px;
+    border: 30px;
+    position:static;
+    font-size: 350%;
+    display:block;
+    color:#fff;
+    text-align: center;
+    
+
+}
+.column {
+  float:left;
+  width: 50%;
+}
+
+/* Arrows main screen*/
+
+.arrow1,
+.arrow2 {
+    color: #fff;
+    margin-top: 50%;
+}
+.arrow1{
+    margin-right: 50%;
+}
+.arrow2{
+    margin-left: 50%
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*NAVIGATION*/
 
@@ -112,34 +210,7 @@ h3{
 
 
 
-/* ICONS */
-.icon-big{
-    font-size: 350%;
-    display:block;
-    color:#fff;
-    text-align: center;
 
-}
-.column {
-  float:left;
-  width: 50%;
-
-  
-}
-
-/* Arrows main screen*/
-
-.arrow1,
-.arrow2 {
-    color: #fff;
-    margin-top: 50%;
-}
-.arrow1{
-    margin-right: 50%;
-}
-.arrow2{
-    margin-left: 50%
-}
 
 /* section 1 and section 2 */
 
