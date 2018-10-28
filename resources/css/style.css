@@ -33,13 +33,14 @@ body{
 
 /******************BACKGROUNDS*******************/
 .first{
-    background-image: url(img/action-aerial-athletes-1171084.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),  url(img/action-aerial-athletes-1171084.jpg);
 }
 .second{
-    background-image: url(img/dawn-dusk-field-149356.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),  url(img/dawn-dusk-field-149356.jpg);
 }
 .third{
-    background-image: url(img/action-activity-adult-262524.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),  url(img/action-activity-adult-262524.jpg);
+    
 }
 .photo-background {
     
@@ -62,8 +63,12 @@ body{
     z-index: -10;
     
     /* Set up color */
-   filter: brightness(0.5);
+
+
 }
+
+
+
 
 /*********** Slideshow container ************/
 .mySlides {display: none}
@@ -143,6 +148,42 @@ body{
 }
 
 
+/* SECTION 1 */
+
+h1{
+    
+    font-size: 250%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position:absolute;
+    margin-top: 20%;
+    right: 20%;
+    letter-spacing: 1px;
+    
+}
+.opening-mid{
+    font-weight: 300;
+    text-transform: uppercase;
+    position:absolute;
+    left: 20%;
+    margin-top:30%; 
+   
+}
+h2{
+    font-size: 180%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 40%;
+    
+  
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top:2px;
+    margin-right: 45%;
+}
 
 
 
@@ -184,39 +225,6 @@ body{
 }
 
 
-/* SECTION 1 */
-
-h1{
-    font-size: 250%;
-    font-weight: 400;
-    text-transform: uppercase;
-    position:absolute;
-    margin-top: 20%;
-    right: 20%;
-    letter-spacing: 1px;
-}
-.opening-mid{
-    font-weight: 300;
-    text-transform: uppercase;
-    position:absolute;
-    left: 20%;
-    margin-top:30%; 
-}
-h2{
-    font-size: 180%;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-right: 40%;
-    
-  
-}
-h3{
-    font-size: 110%;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin-top:2px;
-    margin-right: 45%;
-}
 
 /* Buttons */
 
