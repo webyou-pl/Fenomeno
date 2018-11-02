@@ -317,11 +317,11 @@ h3{
 }
 
 .footer{
-    background-color: rgba(27, 13, 13, 0.8);
+    background-color: rgba(99, 98, 98, 0.8);
     padding: 0.3rem 0.9rem 0.3rem;
     text-align: center;
     font-size: .7rem;
-    color: #000;
+    color: #fff;
 }
 
 .partners{
