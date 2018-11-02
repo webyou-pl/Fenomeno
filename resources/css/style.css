@@ -308,6 +308,8 @@ h3{
     transition-duration: 250ms;
 }
 
+/* end section 1 and section 2 */
+
 /* Sertion 5 start */
 .down_footer{
     position: fixed;
@@ -376,3 +378,5 @@ h3{
     left: -22px;
     z-index: 2;
 }
+/* end footer slider */
+/* end Sertion 5 */
