@@ -183,7 +183,7 @@ h3{
     position: absolute;
     right: 15%;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 1.2rem;
 }
 .main-nav li{
     display: inline-block;
@@ -200,8 +200,8 @@ h3{
 }
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 2px solid #0bef13;
-    color:#0bef13;
+    border-bottom: 2px solid #0db095;
+    color: #0db095;
 }
 
 /* Buttons */
@@ -212,10 +212,11 @@ h3{
 .top_header a:link, a:visited{
     text-decoration: none;
     color: #fff;
+    padding: .3rem;
 }
 
 .top_header a:hover{
-    color: #000;
+    color: #0db095;
     border-bottom: 2px solid #0db095;
 }
 
@@ -239,6 +240,7 @@ h3{
 
 .top_header{
     position: fixed;
+    background-color: rgba(5, 0, 104, 0.4);
     width: 100%;
     top: 0;
     left: 0;
@@ -251,10 +253,10 @@ h3{
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    padding: 0.3rem 0.9rem;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.3rem 0.2rem;
+
     text-transform: uppercase;
-    border-bottom: 1px solid #000;
+    font-size: 0.75rem;
 }
 
 .tel, .email{
@@ -263,12 +265,11 @@ h3{
 }
 
 .logo_socjal{
-    background-color: rgba(5, 0, 104, 0.4);
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 0.9rem;
+    padding: .1rem 0.9rem;
 }
 
 .logo{
@@ -316,8 +317,8 @@ h3{
 }
 
 .footer{
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 0.3rem 0.9rem;
+    background-color: rgba(27, 13, 13, 0.8);
+    padding: 0.3rem 0.9rem 0.3rem;
     text-align: center;
     font-size: .7rem;
     color: #000;
@@ -329,7 +330,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.2rem 0.9rem;
+    padding: .9rem;
 }
 /* footer slider */
 .down_footer .footer_slides{
