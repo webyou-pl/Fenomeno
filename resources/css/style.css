@@ -16,7 +16,7 @@ body{
     font-weight:300;
     font-size:20px;
     text-rendering:optimizeLegibility;
-    overflow-x:hidden;
+    /* overflow-x:hidden; << po co to ?*/
     color: #ffff;
     height: 100vh;
 }
