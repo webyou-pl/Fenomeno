@@ -517,3 +517,53 @@ input[type=submit]{
 .plan-box ul li{
     padding: 5px 0;
 }
+
+
+/* start contact */
+section.contact{
+    background-image: url(img/dawn-dusk-field-149356.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100vh;
+}
+
+section.contact .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(85, 126, 240, 0.8);
+    border-radius: 5%;
+}
+
+
+.contact__header{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.contact__header img{
+height: 150px;
+display: block;
+margin: 0 auto;
+margin-bottom: 1rem;
+}
+
+.logo__title{
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.contact__map{
+    float: left;
+    width: 50%;
+    height: 333px;
+}
+
+.contact__form{
+    float: left;
+    width: 50%;
+    height: 333px;
+}
+
+/* end contact */
