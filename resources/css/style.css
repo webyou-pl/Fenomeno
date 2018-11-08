@@ -202,7 +202,7 @@ h3{
     position: absolute;
     right: 15%;
     list-style: none;
-    margin-top: 1.2rem;
+    margin-top: -2rem;
 }
 .main-nav li{
     display: inline-block;
