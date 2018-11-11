@@ -21,15 +21,6 @@ body{
     height: 100vh;
 }
 
-/* IMPORTANT TO CLEAR FLOATS OTHEWISE YOU WIIL NOT ACHIVE SAVE BETWEEN 8 PICTURES SECTION AND HOW IT WORKS SECTION */
-.clearfix {zoom:1}
-.clearfix:after{
-    content: "";
-    clear: both;
-    display: block;
-    height:0;
-    visibility: hidden;
-}
 
 
 
@@ -645,50 +636,31 @@ p.contact__form--address{
 
 
     /* Start Gallery */
-
+.gallery-background{
+    background-image: url(img/sky_background.jpg);
+    height: 100vh;
+    
+}
 .gallery{
-    padding: 0;
+    margin-top: 50px;
     position:relative;
-    overflow: hidden;
-    margin-top: 30px;
-    max-width: 1000px;
-    max-height: 500px;
-    border: 10px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:15px; 
-    display: block;
-    }
-
-
-.image-gallery{
-    width: 100%;
-    height: 100%;
     text-align: center;
-    
-    
-
-    
+    margin-left: 10%;
+    margin-right: 10%; 
+    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
 }
 
-.column{
-  content: "";
-  display: table;
-  clear: both;
-        }
-.photo-figure{
-    
-    }
-
-li{
-    float: left;
-
+.gallery img {
+    margin-top: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
 }
-.small-photo{
-    width: 100px;
-    height: 65px;
-    
+
+.gallery img:hover{
+    transform: scale(1.1);   
 }
+
 
 
 

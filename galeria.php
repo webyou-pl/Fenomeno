@@ -3,82 +3,38 @@ require_once 'structure/template.php';
 ?>
 <?php echo $template_start; ?>
 
-<section>
+<link rel="stylesheet" type="text/css" href="vendors/css/lightbox.min.css">
+
+
+<section class="gallery-background">
             <div class="row">
                 <!-- klasa powina byc ogolna -->
                 <h4 class="text">Galeria</h4>
                 <hr/>
             </div>
         <!-- Big Image -->
-    <section class="gallery">
-
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
+    
+        <div class="gallery">
+            <a href="Material/Galeria/1.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/1.jpg"></a>
+            <a href="Material/Galeria/2.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/2.jpg"></a>
+            <a href="Material/Galeria/3.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/3.jpg"></a>
+            <a href="Material/Galeria/4.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/4.jpg"></a>
+            <a href="Material/Galeria/5.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/5.jpg"></a>
+            <a href="Material/Galeria/6.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/6.jpg"></a>
+            <a href="Material/Galeria/7.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/7.jpg"></a>
+            <a href="Material/Galeria/8.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/8.jpg"></a>
+            <a href="Material/Galeria/9.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/9.jpg"></a>
+            <a href="Material/Galeria/10.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/10.jpg"></a>
+            <a href="Material/Galeria/11.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/11.jpg"></a>
+            <a href="Material/Galeria/12.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/12.jpg"></a>
+            <a href="Material/Galeria/1.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/1.jpg"></a>
+            <a href="Material/Galeria/2.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/2.jpg"></a>
+            <a href="Material/Galeria/3.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/3.jpg"></a>
+            <a href="Material/Galeria/4.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/4.jpg"></a>
+            <a href="Material/Galeria/5.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/5.jpg"></a>
+            <a href="Material/Galeria/6.jpg" data-lightbox="mygallery"> <img src="Material/Galeria/6.jpg"></a>
         </div>
 
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
-        </div>
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
-        </div>
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
-        </div>
-
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
-        </div>
-        <div class="slideGallery">
-        <img src="Material/Galeria/action-athlete-ball-159636.jpg" class="image-gallery">
-        </div>
-    </section> 
-    <!-- Small image -->
-    <section class="under-gallery">
-                   <ul class="image-list clearfix">
-                <li>
-                    <figure class="photo-figure">
-                        <img src="Material/Galeria/action-athlete-ball-159636.jpg" alt="Korean bibimbap with egg and vegetables" class="small-photo">
-                        
-                    </figure>    
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="Material/Galeria/action-athletes-ball-274422.jpg" alt="Simple italian pizza with cherry tomatoes" class="small-photo">
-                        
-                    </figure>    
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="Material/Galeria/adult-athlete-cramps-460550.jpg" alt="Chicken breast steak with vegetables" class="small-photo">
-                        
-                    </figure>    
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="Material/Galeria/athlete-football-game-112786.jpg" alt="Autumn pumpkin soup" class="small-photo">
-                        
-                    </figure>    
-                </li>
-                                <li>
-                    <figure class="photo">
-                        <img src="Material/Galeria/beach-football-goal-94953.jpg" alt="Autumn pumpkin soup" class="small-photo">
-                        
-                    </figure>    
-                </li>
-                                       <li>
-                    <figure class="photo">
-                        <img src="Material/Galeria/zzalone-back-view-ball-784538.jpg" alt="Autumn pumpkin soup" class="small-photo">
-                        
-                    </figure>    
-                </li>
-            </ul>
     
-    </section>
-    
-    
-    
-    
-    
-    
-    </section>
+</section>
+    <script type="text/javascript" src="vendors/js/lightbox-plus-jquery.min.js"></script>
