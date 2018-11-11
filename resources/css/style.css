@@ -678,3 +678,12 @@ p.contact__form--address{
 
 
 
+/* gallery */
+
+.languages .socjal .logo, a:hover {
+    opacity: 1; 
+}
+
+.gallery img:hover {
+    filter: brightness(100%);
+}
