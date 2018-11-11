@@ -61,7 +61,10 @@ h3{
     margin-top:2px;
     margin-right: 45%;
 }
-
+.text{
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
 /*NAVIGATION*/
 
@@ -636,6 +639,9 @@ p.contact__form--address{
 
 
     /* Start Gallery */
+.text {
+    
+}
 .gallery-background{
     background-image: url(img/sky_background.jpg);
     height: 100vh;
@@ -655,6 +661,10 @@ p.contact__form--address{
     padding: 10px;
     width: 250px;
     height: 200px;
+    object-fit:cover;
+  
+    
+    
 }
 
 .gallery img:hover{
