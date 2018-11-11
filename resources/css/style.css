@@ -665,22 +665,9 @@ p.contact__form--address{
 .gallery img:hover{
     transform: scale(1.1);
     filter:brightness(120%);
-  
 }
-    /* END Gallery */
-
-
-
-
-
-
-
-
-
-
-/* gallery */
 
 .languages .socjal .logo, a:hover {
     opacity: 1; 
 }
-
+    /* END Gallery */
