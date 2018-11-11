@@ -4,7 +4,7 @@ require_once 'structure/template.php';
 <?php echo $template_start; ?>
         <section class="oferta">
              <div class="row">
-            <h4 class="text-oferta">Zacznij trening dzisiaj</h4>
+            <h4 class="text">Zacznij trening dzisiaj</h4>
                  <hr>
                 
             </div>
