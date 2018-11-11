@@ -663,7 +663,7 @@ p.contact__form--address{
 
 .gallery img:hover{
     transform: scale(1.1);
-    filter: brightness(180%);
+    filter: brightness(150%);
   
 }
 
