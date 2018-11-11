@@ -62,8 +62,12 @@ h3{
     margin-right: 45%;
 }
 .text{
-    font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
 }
 
 /*NAVIGATION*/
@@ -271,13 +275,7 @@ h3{
 
 
 /* OFERTA */
-.text{
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 12%;
-}
+
 hr { 
     display: block;
     margin-top: 5px;
@@ -639,9 +637,7 @@ p.contact__form--address{
 
 
     /* Start Gallery */
-.text {
-    
-}
+
 .gallery-background{
     background-image: url(img/sky_background.jpg);
     height: 100vh;
@@ -662,13 +658,13 @@ p.contact__form--address{
     width: 250px;
     height: 200px;
     object-fit:cover;
-  
-    
-    
+ 
 }
 
 .gallery img:hover{
-    transform: scale(1.1);   
+    transform: scale(1.1);
+    filter: brightness(180%);
+  
 }
 
 
