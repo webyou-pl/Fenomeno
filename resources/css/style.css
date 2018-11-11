@@ -405,7 +405,7 @@ h3{
     word-spacing: 5px;
     font-size: 50px;
     text-align: center;
-    margin-top: 17%;
+    margin-top: 7%;
 }
 hr { 
     display: block;
@@ -622,7 +622,7 @@ section.contact .container{
     padding: 0 0.8rem;
     font-weight: bold;
     margin-bottom: .2rem;
-    line-height: 1.8rem;
+    line-height: 1.4rem;
 }
 
 p.contact__form--address{
