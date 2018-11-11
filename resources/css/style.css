@@ -664,10 +664,10 @@ p.contact__form--address{
 
 .gallery img:hover{
     transform: scale(1.1);
-    filter: brightness(150%);
+    filter:brightness(120%);
   
 }
-
+    /* END Gallery */
 
 
 
@@ -684,6 +684,3 @@ p.contact__form--address{
     opacity: 1; 
 }
 
-.gallery img:hover {
-    filter: brightness(100%);
-}
