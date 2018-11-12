@@ -56,11 +56,11 @@ $template_start = '
             <nav>
                 <div class="row">
                     <ul class="main-nav">
-                        <li><a href="#">O szkole</a></li>
+                        <li><a href="o_szkole.php">O szkole</a></li>
                         <li><a href="oferta.php">Oferta</a></li>
-                        <li><a href="#">Kadra</a></li>
-                        <li><a href="#">Galeria</a></li>
-                        <li><a href="#">Kontakt</a></li> 
+                        <li><a href="kadra.php">Kadra</a></li>
+                        <li><a href="galeria.php">Galeria</a></li>
+                        <li><a href="kontakt.php">Kontakt</a></li> 
                     </ul>
                 </div> 
             </nav>
