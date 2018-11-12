@@ -48,14 +48,14 @@ require_once 'structure/template.php';
             </div>
         </div>       
 <!-- Next and previous buttons -->
-        <div class="row">
+        
             <div class="column">
                 <a class="ion-ios-skipbackward-outline prev arrow1 icon-big" onclick="plusSlides(-1)"  id="btn-left"></a>
             </div>
             <div class="column">
                 <a class="ion-ios-skipforward-outline next arrow2 icon-big" onclick="plusSlides(1)" id="btn-right"></a>
             </div>
-        </div>
+        
     </div>
 </section>
 

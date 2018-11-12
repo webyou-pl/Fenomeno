@@ -20,7 +20,13 @@ body{
     color: #ffff;
     height: 100vh;
 }
-
+.row{ 
+    max-width:1148px;
+    margin: 0 auto;
+}
+.box{
+    padding: 1%;
+}
 
 /* SECTION 1 */
 
@@ -720,3 +726,50 @@ p.contact__form--address{
     opacity: 1; 
 }
     /* END Gallery */
+
+
+
+    /* Start Kadra */
+
+.kadra {
+    background-image: url(img/action-aerial-athletes-1171084.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
+    width: 100%;
+    bottom:0;
+}
+
+
+.trener1 img, .trener2 img{
+    padding: 5px;
+    border-radius: 100px;
+    border: solid;
+}
+
+.trener1 img:hover{
+   transform: scale(1.1);
+    filter:brightness(120%);
+    
+}
+.trener2 img:hover{
+   transform: scale(1.1);
+    filter:brightness(120%);
+    
+}
+.trener1{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+}
+.trener2{
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+}
+
