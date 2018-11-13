@@ -732,7 +732,7 @@ p.contact__form--address{
     /* Start Kadra */
 
 .kadra {
-    background-image: url(img/action-aerial-athletes-1171084.jpg);
+    background-image: url(img/background_for_kadra.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -750,26 +750,34 @@ p.contact__form--address{
 
 .trener1 img:hover{
    transform: scale(1.1);
-    filter:brightness(120%);
+    filter:brightness(110%);
+    border-color: #36c494;
     
 }
 .trener2 img:hover{
    transform: scale(1.1);
     filter:brightness(110%);
+    border-color: #36c494;
     
 }
 .trener1{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
     text-align: center;
 }
 .trener2{
-    margin-top: 400px;
+    margin-top: 340px;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
     text-align: center;
 }
 
+.kadra p{
+    font-weight: 400;
+    text-decoration:  underline;
+    text-shadow: 2px 2px #000000;
+       
+}

@@ -1,7 +1,10 @@
 <?php
 require_once 'structure/template.php';
 ?>
+<link rel="stylesheet" type="text/css" href="vendors/css/reveal.css">
+
 <?php echo $template_start; ?>
+<body>
 <section class="kadra">
             <div class="row">
                 <!-- klasa powina byc ogolna -->
@@ -40,3 +43,9 @@ require_once 'structure/template.php';
     
     
 </section>
+<scrip src="vendors/js/jquery.reveal.js"></scrip>
+</body>
+<?php echo $template_footer; ?>
+
+
+id="myModal" 

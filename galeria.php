@@ -5,7 +5,7 @@ require_once 'structure/template.php';
 
 <link rel="stylesheet" type="text/css" href="vendors/css/lightbox.min.css">
 
-
+<body>
 <section class="gallery-background">
             <div class="row">
                 <!-- klasa powina byc ogolna -->
@@ -38,4 +38,5 @@ require_once 'structure/template.php';
 
 </section>
     <script type="text/javascript" src="vendors/js/lightbox-plus-jquery.min.js"></script>
+    </body>
   <?php echo $template_footer; ?>  
