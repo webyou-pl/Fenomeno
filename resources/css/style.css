@@ -739,7 +739,7 @@ p.contact__form--address{
     /* Start Kadra */
 
 .kadra {
-    background-image: url(img/action-aerial-athletes-1171084.jpg);
+    background-image: url(img/background_for_kadra.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -757,26 +757,75 @@ p.contact__form--address{
 
 .trener1 img:hover{
    transform: scale(1.1);
-    filter:brightness(120%);
+    filter:brightness(110%);
+    border-color: #36c494;
     
 }
 .trener2 img:hover{
    transform: scale(1.1);
     filter:brightness(110%);
+    border-color: #36c494;
     
 }
 .trener1{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
     text-align: center;
 }
 .trener2{
-    margin-top: 400px;
+    margin-top: 340px;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
     text-align: center;
 }
 
+.kadra p{
+    font-weight: 400;
+    text-shadow: 2px 2px #000000;
+       
+}
+/* Trener Pop Up */
+
+.reveal-modal p{
+    text-shadow: none;
+    color: black;
+}
+
+
+h6{
+    color:black;
+    font-size: 30px;
+}
+
+.instruktor p{
+    text-decoration: none;
+    
+}
+.trainer-name{
+    margin-top: 30px;
+}
+.trainer-picture{
+    width: 500px;
+    height: auto; 
+}
+.reveal-modal img{
+border: 0px;
+
+}
+.reveal-modal img:hover{
+transform: none;
+filter: none;
+}
+
+.kadra a img{
+    transition: all 0.5s ease-in-out;
+}
+
+.kadra a img:hover{
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,.4);
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,.4);
+}
