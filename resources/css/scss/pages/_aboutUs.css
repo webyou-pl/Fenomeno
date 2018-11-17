@@ -1,0 +1,46 @@
+section.aboutUs{
+    background-image: url(img/ball-field-grass-114296.jpg);
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0rem 0 2rem 0;
+}
+
+section.aboutUs .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(5, 0, 104, 0.75);
+    border-radius: 11px;
+    margin-top: 2rem;
+    overflow: hidden;
+    -webkit-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
+}
+
+section.aboutUs .container article{
+    padding: 1rem;
+}
+
+
+section.aboutUs .container p{
+    margin: 1rem 0;
+}
+section.aboutUs .container p:first-child:first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section.aboutUs .container header img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+section.aboutUs .container footer {
+    margin-bottom: 2rem;
+    text-align: center;
+}

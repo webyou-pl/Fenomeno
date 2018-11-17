@@ -1,25 +1,26 @@
+
+@import url("scss/main.css");
+
+/* layout */
+@import url("scss/layout/_footer.css");
+@import url("scss/layout/_top-header.css");
+
+/* pages */
+@import url("scss/pages/_contact.css");
+@import url("scss/pages/_aboutUs.css");
+
+/* vendors */
+@import url("../css/queries.css");
+
+
+
 /*
 color:   #
 
 /* ---------------------------------------------------------------------------------------------- */
 /* BASIC SETUP */
 /* ---------------------------------------------------------------------------------------------- */
-*{
-    margin:0;
-    padding:0;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-}
-html,
-body{
-    font-family:'Lato', 'Arial', 'sans-serif';
-    font-weight:300;
-    font-size:20px;
-    text-rendering:optimizeLegibility;
-    /* overflow-x:hidden; << po co to ?*/
-    color: #ffff;
-    height: 100vh;
-}
+
 .row{ 
     max-width:1148px;
     margin: 0 auto;
@@ -30,17 +31,6 @@ body{
 
 /* SECTION 1 */
 
-h1{
-    
-    font-size: 250%;
-    font-weight: 400;
-    text-transform: uppercase;
-    position:absolute;
-    margin-top: 20%;
-    right: 20%;
-    letter-spacing: 1px;
-    
-}
 .opening-mid{
     font-weight: 300;
     text-transform: uppercase;
@@ -106,195 +96,14 @@ h3{
 
 /* section 1 and section 2 */
 
-.top_header a:link, a:visited{
-    text-decoration: none;
-    color: #fff;
-    padding: .3rem;
-}
-
-.top_header a:hover{
-    color: #0db095;
-    border-bottom: 2px solid #0db095;
-}
-
-.socjal a:hover{
-    border-bottom: none;
-}
-.languages a:hover{
-    border-bottom: none;
-}
-.logo a:hover{
-    border-bottom: none;
-}
-
-.color_awarded_one{
-    color: #0db095;
-}
-
-.color_awarded_two{
-    color: #cffb8a;
-}
-
-.top_header{
-    position: fixed;
-    background-color: rgba(5, 0, 104, 0.4);
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 90;
-}
-
-.lan_con{
-    display: flex;
-    position: relative;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 0.2rem;
-
-    text-transform: uppercase;
-    font-size: 0.75rem;
-}
-
-.tel, .email{
-    display: inline;
-    margin: 0 0.5rem;
-}
-
-.logo_socjal{
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 0.9rem;
-}
-
-.logo{
-    display: inline;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    max-height: 90px;
-}
-
-.logo img{
-    max-height: 3rem;
-    height: 100%;
-    width: auto;
-}
-
-
-
-.logo > h1{
-    display: inline;
-    position: static;
-}
-
-.logo_img, .logo_text{
-    margin: 0 .1rem;
-    font-size: 2rem;
-}
-
-.languages .socjal .logo, a, .socjal a, .languages a{
-    transform: scale(1,1);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-}
-
-.languages .socjal .logo, a:hover, .socjal a:hover, .languages a:hover{
-    opacity: .7;
-    transform: scale(1.05,1.07);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-}
-
 /* end section 1 and section 2 */
 
 /* Sertion 5 start */
-.down_footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.footer{
-    background-color: rgba(99, 98, 98, 0.8);
-    padding: 0.3rem 0.9rem 0.3rem;
-    text-align: center;
-    font-size: .7rem;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 99;
-}
-
-.partners{
-    background-color: rgba(5, 0, 104, 0.4);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .9rem;
-}
-/* footer slider */
-.down_footer .footer_slides{
-    position:relative;
-    margin:0 auto;
-    top:0px;
-    left:0px;
-    width:980px;
-    height:100px;
-}
-
-.down_footer .loading img{
-    margin-top:-19px;
-    position:relative;
-    top:50%;
-    width:38px;
-    height:38px
-}
-
-.down_footer .slider{
-    cursor:default;
-    position:relative;
-    top:0px;
-    left:0px;
-    width:980px;
-    height:100px;
-    overflow:hidden;
-}
-
-.down_footer #img_slider {
-    opacity: 0.6;
-    z-index: 1;
-    height: 10px;
-}
-
-.down_footer #img_slider:hover{
-    opacity: 1;
-}
-
-        .down_footer .text_sliders{
-            position: absolute;
-            top: -13px;
-            left: -22px;
-            z-index: 2;
-        }
 
 
 /* OFERTA */
 
-hr { 
-    display: block;
-    margin-top: 5px;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-style:solid;
-    border-width: 3px;
-    border-color: aquamarine;
-}
+
 .skrzynka{
     color: darkblue;
 }
@@ -399,175 +208,10 @@ input[type=submit]{
 
 
 /* start about us */
-section.aboutUs{
-    background-image: url(img/ball-field-grass-114296.jpg);
-    background-position: top;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    padding: 0rem 0 2rem 0;
-}
-
-section.aboutUs .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: rgba(5, 0, 104, 0.75);
-    border-radius: 11px;
-    margin-top: 2rem;
-    overflow: hidden;
-    -webkit-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-}
-
-section.aboutUs .container article{
-    padding: 1rem;
-}
-
-
-section.aboutUs .container p{
-    margin: 1rem 0;
-}
-section.aboutUs .container p:first-child:first-letter{
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-section.aboutUs .container header img{
-    width: 100%;
-    height: 15rem;
-    object-fit: cover;
-    filter: blur(3px);
-}
-
-section.aboutUs .container footer {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-
 
 /* end about us */
 
 /* start contact */
-section.contact{
-    background-image: url(img/dawn-dusk-field-149356.jpg);
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    min-height: 100vh;
-    padding: 0rem 0 2rem 0;
-}
-
-section.contact .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: rgba(5, 0, 104, 0.6);
-    border-radius: 11px;
-    margin-top: 2rem;
-    overflow: hidden;
-    -webkit-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
-}
-
-
-.contact__header{
-    width: 100%;
-    text-align: center;
-    line-height: 1.5rem;
-    padding: 1rem;
-}
-.contact__header img{
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-}
-
-.logo__title{
-    font-size: 2rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 1rem;
-}
-
-.nazwa{
-    width: 1200px;
-    height: 100%;
-    position: relative;
-}
-
-.contact__map, .contact__form{
-
-}
-.contact__map{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left: 0;
-    z-index: 10;
-}
-
-.contact__map iframe{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    opacity: .95;
-}
-
-.contact__form{
-    position: inherit;
-    left: 64%;
-    top: 0;
-    width: 32%;
-    z-index: 20;
-    background: rgba(240, 240, 240, 0.8);
-    padding: 1rem;
-    color: #000;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.contact__form input[type="text"],textarea{
-    max-width: 100%;
-    min-width: 100%;
-    background:rgba(13, 176, 149, 0.1);
-    border: 2px solid #0db095;
-    color: #000;
-    padding: 0.5rem 1rem;
-    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-}
-
-.contact__form input{
-    width: 100%;
-}
-
-
-.contact__form p{
-    min-height: 1rem;
-    padding: 0 0.8rem;
-    font-weight: bold;
-    margin-bottom: .2rem;
-    line-height: 1.4rem;
-}
-
-p.contact__form--address{
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.contact__form .e--form{
-    margin-bottom: 1rem;
-    color: red;
-    font-weight: 300; 
-    display: inline-block;
-    border-bottom: 1px solid red;
-}
 
 /* end contact */
 
@@ -795,10 +439,6 @@ p.contact__form--address{
 }
 
 
-h6{
-    color:black;
-    font-size: 30px;
-}
 
 .instruktor p{
     text-decoration: none;
