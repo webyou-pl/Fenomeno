@@ -16,10 +16,10 @@
 	
 	.reveal-modal {
 		visibility: hidden;
-		top: 100px; 
+		top: 240px; 
 		left: 50%;
 		margin-left: -300px;
-		width: 520px;
+		width: 650px;
 		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
 		position: absolute;
 		z-index: 101;
@@ -48,6 +48,21 @@
 		font-weight: bold;
 		cursor: pointer;
 		} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/*
 		
 	NOTES

@@ -19,8 +19,9 @@ require_once 'structure/template.php';
             <p>Imie Nazwisko</p>
         </div>
         <div id="myModal" class="reveal-modal">
-            <h1>Reveal Modal Goodness</h1>
-			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+            <h6>Imie Nazwisko</h6>
+            <img src="Material/kadra/trainer%20example.jpg" class="trainer-picture">
+			<p class="trener">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. TEXT1</p>
 			<a class="close-reveal-modal">&#215;</a> 
 		      </div>   
             
@@ -31,7 +32,7 @@ require_once 'structure/template.php';
             <p>Imie Nazwisko</p>
             </div>
                     <div id="myModal" class="reveal-modal">
-            <h1>Reveal Modal Goodness</h1>
+            <h1 class="trainer-name">Imie Nazwisko</h1>
 			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
 			<a class="close-reveal-modal">&#215;</a> 
 		      </div>  
@@ -43,7 +44,7 @@ require_once 'structure/template.php';
                 <p>Imie Nazwisko</p>
             </div>
                                 <div id="myModal" class="reveal-modal">
-            <h1>Reveal Modal Goodness</h1>
+            <h1>Imie Nazwisko</h1>
 			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
 			<a class="close-reveal-modal">&#215;</a> 
 		      </div>  
@@ -57,7 +58,7 @@ require_once 'structure/template.php';
                 <p>Imie Nazwisko</p>
             </div>
             <div id="myModal" class="reveal-modal">
-			<h1>Reveal Modal Goodness</h1>
+			<h1>Imie Nazwisko</h1>
 			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
 			<a class="close-reveal-modal">&#215;</a> 
 		      </div>
@@ -70,8 +71,8 @@ require_once 'structure/template.php';
             </div>
         
             <div id="myModal" class="reveal-modal">
-			<h1>Reveal Modal Goodness</h1>
-			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+			<h1>Imie Nazwisko</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
 			<a class="close-reveal-modal">&#215;</a> 
 		      </div>
             <!-- Way to make pop up! END -->

@@ -777,7 +777,38 @@ p.contact__form--address{
 
 .kadra p{
     font-weight: 400;
-    text-decoration:  underline;
     text-shadow: 2px 2px #000000;
        
+}
+/* Trener Pop Up */
+
+.reveal-modal p{
+    text-shadow: none;
+    color: black;
+}
+
+
+h6{
+    color:black;
+    font-size: 30px;
+}
+
+.instruktor p{
+    text-decoration: none;
+    
+}
+.trainer-name{
+    margin-top: 30px;
+}
+.trainer-picture{
+    width: 500px;
+    height: auto; 
+}
+.reveal-modal img{
+border: 0px;
+
+}
+.reveal-modal img:hover{
+transform: none;
+filter: none;
 }
