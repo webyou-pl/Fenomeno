@@ -34,11 +34,28 @@
 
 		<div id="myModal" class="reveal-modal">
 			<h1>Reveal Modal Goodness</h1>
+			<p>aaaaa</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+			
+		<a href="#" class="big-link" data-reveal-id="myModal">
+			Fade and Pop
+		</a>	
+		
+		<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
+			Fade
+		</a>
+		
+		<a href="#" class="big-link" data-reveal-id="myModal" data-animation="none">
+			None
+		</a>
+
+		<div id="myModal2" class="reveal-modal">
+			<h1>Reveal Modal Goodness</h1>
 			<p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
 			<a class="close-reveal-modal">&#215;</a>
 		</div>
 			
-
 
 
     </body>
