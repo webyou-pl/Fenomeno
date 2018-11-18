@@ -18,14 +18,14 @@ require_once 'structure/template.php';
                             Tel. 213 123 532<br />
                             Email: adres@domena.pl<br />
                         </p>
-                        <form action="none">
+                        <form name="myForm" action="/v.php" onsubmit="return validateForm()" method="post">
                             <p>Twój Email:</p> 
-                            <input type="text" name="firstname" placeholder="Twój adres email">
-                            <p class="e--form">e_email</p>
+                            <input type="text" name="email" placeholder="Twój adres email">
+                            <p class="e--form"></p>
                             
                             <p>Treść Wiadomości:</p>
                             <textarea name="message" rows="5" cols="30" >  </textarea>
-                            <p class="e--form">e_message</p>
+                            <p class="e--message">e_message</p>
                             <input type="submit" value="WYŚLIJ">
                         </form>
                     </div>
@@ -37,6 +37,20 @@ require_once 'structure/template.php';
             </div>
         </section>
     <?php echo $template_footer; ?>
+<script>
+function validateForm() {
+    var email = document.forms["myForm"]["email"].value;
+    var text  = document.forms["myForm"]["message"].value;
+    if ( email == "" || email == "1") {
+        document.getElementsByClassName('e--form')[0].innerHTML="Zły e-mail";
+        return false;
+    }
+    if ( text == "" || text == "1") {
+        document.getElementsByClassName('e--message')[0].innerHTML="Problem z wiadomością";
+        return false;
+    }
+}
+</script>
 </body>
 
 </html>
