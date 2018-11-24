@@ -4,6 +4,7 @@ require_once 'structure/template.php';
 <?php echo $template_start; ?>
 
 <link rel="stylesheet" type="text/css" href="vendors/css/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="resources/css/scss/pages/_gallery.css">
 
 <body>
 <section class="gallery-background">

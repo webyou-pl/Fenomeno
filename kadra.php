@@ -2,6 +2,7 @@
 require_once 'structure/template.php';
 ?>
 <link rel="stylesheet" type="text/css" href="vendors/css/reveal.css">
+<link rel="stylesheet" type="text/css" href="resources/css/scss/pages/_kadra.css">
 
 <?php echo $template_start; ?>
 <body>
