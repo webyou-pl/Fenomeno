@@ -1,8 +1,6 @@
 <?php
 require_once 'structure/template.php';
 ?>
-<link rel="stylesheet" type="text/css" href="resources/css/scss/pages/_offer.css">
-
 <?php echo $template_start; ?>
         <section class="oferta">
              <div class="row">

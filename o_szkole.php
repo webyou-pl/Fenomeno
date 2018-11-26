@@ -10,7 +10,7 @@ require_once 'structure/template.php';
             </div>
             <div class="container">
                 <header>
-                    <img src="resources/css/img/Tunnel-inside-Arsenal-Stadium.jpg" alt="enter" >
+                    <img src="resources/img/Tunnel-inside-Arsenal-Stadium.jpg" alt="enter" >
                 </header>
                 <article>
                     <p>

@@ -74,38 +74,38 @@ require_once 'structure/template.php';
             <h4 class="text_sliders">Partnerzy:</h4>
             <!-- Loading Screen -->
             <div data-u="loading" class="loading">
-                <img  src="resources/css/img/partners/spin.svg" />
+                <img  src="resources/img/partners/spin.svg" />
             </div>
             <div data-u="slides" class="slider">
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/adidas.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/adidas.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/CarolinaPanthers.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/CarolinaPanthers.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/Denver-Broncos-Logo.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Denver-Broncos-Logo.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/new-balance-logo.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/new-balance-logo.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/nike.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/nike.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/Puma.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Puma.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/adidas.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/adidas.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/CarolinaPanthers.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/CarolinaPanthers.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/Denver-Broncos-Logo.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Denver-Broncos-Logo.png" />
                 </div>
                 <div>
-                    <img id="img_slider" data-u="image" src="resources/css/img/partners/nike.png" />
+                    <img id="img_slider" data-u="image" src="resources/img/partners/nike.png" />
                 </div>
             </div>
         </div>

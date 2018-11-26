@@ -43,7 +43,7 @@ $template_start = '
             </div>
             <div class="logo_socjal">
                 <div class="logo">
-                    <a href="#!"><img class="logo_img" src="resources/css/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
+                    <a href="#!"><img class="logo_img" src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
                     <h1 class="logo_text"><a href="#!">fenomeno <span class="color_awarded_one">wro</span>cław</a></h1>
                 </div>
                 <div class="socjal">
