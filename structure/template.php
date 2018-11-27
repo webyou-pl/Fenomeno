@@ -43,8 +43,8 @@ $template_start = '
             </div>
             <div class="logo_socjal">
                 <div class="logo">
-                    <a href="#!"><img class="logo_img" src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
-                    <h1 class="logo_text"><a href="#!">fenomeno <span class="color_awarded_one">wro</span>cław</a></h1>
+                    <a href="index.php"><img class="logo_img" src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
+                    <h1 class="logo_text"><a href="index.php">fenomeno <span class="color_awarded_one">wro</span>cław</a></h1>
                 </div>
                 <div class="socjal">
                     <a href="#!"><img src="https://png.icons8.com/color/32/000000/facebook.png"></a>
@@ -73,7 +73,7 @@ $template_start = '
 $template_end = '	  ';	
 
 $template_footer = '	    <div class="footer">
-©2018 /localhost/ - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół webyou.
+©2018 <a href="http://www.webyou.pl" target="_blank" >www.webyou.pl</a> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół webyou.
 </div>  ';	
 ?>
 
