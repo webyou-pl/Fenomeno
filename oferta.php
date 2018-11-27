@@ -12,7 +12,7 @@ require_once 'structure/template.php';
             <div class="col span-1-of-3">
                 <div class="plan-box js--wp-4">
                     <div>
-                        <h3>PErsonal Training</h3>
+                        <h3 class="oferta-title">PErsonal Training</h3>
                         <p class="plan-price">krotki opis</p>
                     </div>
                     <div class="skrzynka">
@@ -33,7 +33,7 @@ require_once 'structure/template.php';
             <div class="col span-1-of-3">
                 <div class="plan-box js--wp-4">
                     <div>
-                        <h3>PErsonal Training</h3>
+                        <h3 class="oferta-title">PErsonal Training</h3>
                         <p class="plan-price">krotki opis</p>
                     </div>
                     <div class="skrzynka">
@@ -53,7 +53,7 @@ require_once 'structure/template.php';
             <div class="col span-1-of-3">
                 <div class="plan-box js--wp-4">
                     <div>
-                        <h3>PErsonal Training</h3>
+                        <h3 class="oferta-title">PErsonal Training</h3>
                         <p class="plan-price">krotki opis</p>
                     </div>
                     <div class="skrzynka">

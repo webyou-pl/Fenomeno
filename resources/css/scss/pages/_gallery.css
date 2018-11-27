@@ -1,0 +1,33 @@
+
+.gallery-background{
+    background-image: url(../../../img/sky_background.jpg);
+    height: 100vh;
+    
+}
+.gallery{
+    margin-top: 50px;
+    position:relative;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
+}
+
+.gallery img {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+    object-fit:cover;
+ 
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    filter:brightness(120%);
+}
+
+.languages .socjal .logo, a:hover {
+    opacity: 1; 
+}
