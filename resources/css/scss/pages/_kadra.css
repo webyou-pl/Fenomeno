@@ -10,24 +10,19 @@
 }
 
 
-.trener1 img, .trener2 img{
+.trainer-pictureSmall{
     padding: 5px;
     border-radius: 100px;
     border: solid;
 }
 
-.trener1 img:hover{
+.trainer-pictureSmall:hover{
    transform: scale(1.1);
     filter:brightness(110%);
     border-color: #36c494;
     
 }
-.trener2 img:hover{
-   transform: scale(1.1);
-    filter:brightness(110%);
-    border-color: #36c494;
-    
-}
+
 .trener1{
     margin-top: 50px;
     margin-left: 50px;
@@ -48,6 +43,10 @@
     text-shadow: 2px 2px #000000;
        
 }
+.trener_text{
+    text-indent: 50px;
+}
+
 /* Trener Pop Up */
 
 .reveal-modal p{
@@ -76,4 +75,5 @@ border: 0px;
 transform: none;
 filter: none;
 }
+
 
