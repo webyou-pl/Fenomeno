@@ -23,14 +23,14 @@
     
 }
 
-.trener1{
+.trener-firstLine{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
     text-align: center;
 }
-.trener2{
+.trener-secondLine{
     margin-top: 340px;
     margin-left: 50px;
     margin-right: 50px;
@@ -43,30 +43,36 @@
     text-shadow: 2px 2px #000000;
        
 }
-.trener_text{
-    text-indent: 50px;
-}
+
+
+
+
 
 /* Trener Pop Up */
+
+
+
+
+
+.trainer-pictureBox{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+
+
 
 .reveal-modal p{
     text-shadow: none;
     color: black;
+    text-align: left;
+    text-indent: 50px;
+    font-weight: 400;
 }
 
 
-
-.instruktor p{
-    text-decoration: none;
-    
-}
-.trainer-name{
-    margin-top: 30px;
-}
-.trainer-pictureBox{
-    width: 500px;
-    height: auto; 
-}
 .reveal-modal img{
 border: 0px;
 
