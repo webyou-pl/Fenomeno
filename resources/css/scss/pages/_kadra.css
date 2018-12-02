@@ -63,7 +63,6 @@
 
 
 
-
 .reveal-modal p{
     text-shadow: none;
     color: black;
@@ -73,13 +72,7 @@
 }
 
 
-.reveal-modal img{
-border: 0px;
 
-}
-.reveal-modal img:hover{
-transform: none;
-filter: none;
-}
+
 
 
