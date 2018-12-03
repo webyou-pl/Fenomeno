@@ -2,35 +2,17 @@
 require_once 'structure/template.php';
 ?>
 <?php echo $template_start; ?>
-<style>
-body{
-    background: #000;
-}
-#myVideo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* height: 100%; */
-}
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-</style>
 <!-- Slideshow container -->
 <section class="main">
-
-<div class="fullscreen-bg">
-    <video autoplay muted loop id="myVideo">
-        <source src="resources/Football_Academy.mp4" type="video/mp4">
-    </video>
-</div>
+    <div class="show">
+        <video autoplay muted loop class="show__video">
+            <source src="resources/video.mp4" type="video/mp4">
+        </video>
+        <div class="show__tekst">
+            <span class="show__tekst--first-line">Z nami osiągniesz sukces</span>
+            <span class="show__tekst--second-line">Dołącz już dziś</span>
+        </div>
+    </div>
 </section>
 <!-- start footer -->
 <footer class="down_footer">
