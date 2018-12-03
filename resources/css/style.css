@@ -7,7 +7,6 @@
 @import url("scss/layout/_nav.css");
 
 /* pages */
-@import url("scss/pages/_slideshow.css");
 @import url("scss/pages/_show-homepage.css");
 @import url("scss/pages/_contact.css");
 @import url("scss/pages/_aboutUs.css");
@@ -15,5 +14,3 @@
 @import url("scss/pages/_kadra.css");
 @import url("scss/pages/_offer.css");
 
-/* vendors */
-@import url("../css/queries.css");

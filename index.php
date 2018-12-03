@@ -61,5 +61,4 @@ require_once 'structure/template.php';
 </footer>
 <!-- end footer -->
 </body>
-    <script src="resources/css/script.js"></script>
 </html>
