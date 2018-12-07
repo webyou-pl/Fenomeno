@@ -40,6 +40,20 @@ $template_start = '
                     </div>
                 </div>
             </div>
+            <!-- start main navigation -->
+            <nav>
+                <div class="row">
+                    <ul class="main-nav">
+                        <li><a href="index.php">Strona główna</a></li>
+                        <li><a href="o_szkole.php">O szkole</a></li>
+                        <li><a href="oferta.php">Oferta</a></li>
+                        <li><a href="kadra.php">Kadra</a></li>
+                        <li><a href="galeria.php">Galeria</a></li>
+                        <li><a href="kontakt.php">Kontakt</a></li> 
+                    </ul>
+                </div> 
+            </nav>
+            <!-- End main navigation -->
             <div class="logo_socjal">
                 <div class="logo">
                     <a href="index.php"><img class="logo_img" src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
@@ -51,19 +65,6 @@ $template_start = '
                     <a href="#!"><img src="https://png.icons8.com/color/32/000000/youtube-play.png"></a>
                 </div>
             </div>
-            <!-- start main navigation -->
-            <nav>
-                <div class="row">
-                    <ul class="main-nav">
-                        <li><a href="o_szkole.php">O szkole</a></li>
-                        <li><a href="oferta.php">Oferta</a></li>
-                        <li><a href="kadra.php">Kadra</a></li>
-                        <li><a href="galeria.php">Galeria</a></li>
-                        <li><a href="kontakt.php">Kontakt</a></li> 
-                    </ul>
-                </div> 
-            </nav>
-            <!-- End main navigation -->
         </div>
     </section>
 </header>

@@ -4,7 +4,7 @@
     position: absolute;
     right: 15%;
     list-style: none;
-    margin-top: -2rem;
+    margin-top: 2rem;
 
 }
 .main-nav li{
@@ -24,4 +24,55 @@
 .main-nav li a:active{
     border-bottom: 2px solid #0db095;
     color: #0db095;
+}
+
+@media only screen and (max-width: 500px) {
+    .main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background-color: #6c6e6e;
+    margin-left: -70%;
+    transition: all .5s ease;
+    padding-top: 2rem;
+    z-index: 21;
+    }
+    .main-nav::after{
+        content: '';
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        width: 45px;
+        height: 45px;
+        background-image: url(../../../img/menu.svg);
+        transition: all .1s ease;
+    }
+
+    .main-nav:hover{
+        margin-left: 0%;
+
+    }
+    .main-nav:hover::after{
+        background-color: red;
+        left: -65px;
+    } 
+
+
+    .main-nav li{
+        display: block;
+        /* background: red; */
+        margin: 0px;
+        
+    }
+    
+    .main-nav li a, .main-nav li a:link{
+        display: block;
+        padding: 1rem 2rem;
+        border-bottom: 2px solid black;
+    }
+    
 }
