@@ -11,7 +11,6 @@ $template_start = '
         <link rel="stylesheet" type="text/css" href="vendors/css/animations.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
     <title>Fenomeno</title>
 </head>

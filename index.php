@@ -4,69 +4,16 @@ require_once 'structure/template.php';
 <?php echo $template_start; ?>
 <!-- Slideshow container -->
 <section class="main">
-    <div class="slideshow-container">
-    <!-- Full-width images with number and caption text -->
-        <div class="mySlides first photo-background fade">
-            <div class="row">
-                <h1>Lorem ipsum dolor sit text1</h1>
-            </div>
-            <div class="row  opening-mid">
-                <div>
-                    <h2>Li Europan lingues es membres del sam familie. Lor separat</h2>
-                </div>
-                <div>
-                    <h3>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi </h3>
-                </div>
-            </div>
+    <div class="show">
+        <video autoplay muted loop class="show__video">
+            <source src="resources/video.mp4" type="video/mp4">
+        </video>
+        <div class="show__tekst">
+            <span class="show__tekst--first-line">Z nami osiągniesz sukces</span>
+            <span class="show__tekst--second-line">Dołącz już dziś</span>
         </div>
-
-        <div class="mySlides second photo-background fade">
-            <div class="row">
-                <h1>Lorem ipsum dolor sit text2</h1>
-            </div>
-            <div class="row  opening-mid">
-                <div>
-                    <h2>Li Europan lingues es membres del sam familie. Lor separat</h2>
-                </div>
-                <div>
-                    <h3>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi </h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="mySlides third photo-background fade">
-            <div class="row">
-                <h1>Lorem ipsum dolor sit text3</h1>
-            </div>
-            <div class="row  opening-mid">
-                <div>
-                    <h2>Li Europan lingues es membres del sam familie. Lor separat</h2>
-                </div>
-                <div>
-                    <h3>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi </h3>
-                </div>
-            </div>
-        </div>       
-<!-- Next and previous buttons -->
-        
-            <div class="column">
-                <a class="ion-ios-skipbackward-outline prev arrow1 icon-big" onclick="plusSlides(-1)"  id="btn-left"></a>
-            </div>
-            <div class="column">
-                <a class="ion-ios-skipforward-outline next arrow2 icon-big" onclick="plusSlides(1)" id="btn-right"></a>
-            </div>
-        
     </div>
 </section>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-    <!-- END Slideshow container -->
 <!-- start footer -->
 <footer class="down_footer">
     <div class="partners">
@@ -114,5 +61,4 @@ require_once 'structure/template.php';
 </footer>
 <!-- end footer -->
 </body>
-    <script src="resources/css/script.js"></script>
 </html>

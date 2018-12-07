@@ -1,0 +1,55 @@
+.show{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+
+}
+.show__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 0;
+    height: 100vh;
+}
+.show__tekst{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 100;
+    width: 100%;
+}
+
+.show__tekst--first-line, .show__tekst--second-line{
+    display: block;
+    font-weight: bold;
+    position: relative;
+    animation-duration: 12s;
+    animation-direction: reverse; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.show__tekst--first-line{
+    font-size: 4rem;
+    animation-name: example;
+}
+.show__tekst--second-line{
+    font-size: 3rem;
+    animation-name: example2;
+}
+@keyframes example2 {
+    0%   {opacity: 0; left:50%;}
+    20%  {opacity: 1; left:40%;}
+    50%  {opacity: 1; left:30%;}
+    100% {opacity: 0; left:0%;}
+}
+@keyframes example {
+    0%   {opacity: 0; left:0;}
+    20%  {opacity: 1; left:10%;}
+    50%  {opacity: 1; left:20%;}
+    100% {opacity: 0; left:50%;}
+}
