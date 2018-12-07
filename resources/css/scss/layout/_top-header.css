@@ -103,8 +103,40 @@
 
 @media only screen and (max-width: 500px) {
     .socjal{
-        position: absolute;
-        top: 0;
-        left: 0;
+        display: none;
+    }
+    .languages{
+        display: none;
+    }
+
+    .contact{
+        color: red;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: black;
+        display: block;
+        width: 100vw;
+        font-size: 0;
+    }
+    .contact .tel, .email{
+        margin: 0;
+    }
+
+    .contact .tel a, .email a{
+        background: #747d9c;
+        display: inline-block;
+        width: 50%;
+        height: 60px;
+        margin: auto;
+        border: 2px solid #000;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .contact .tel a{
+        background-image: url(../../../img/phone.svg);
+    }
+    .contact .email a{
+        background-image: url(../../../img/email.svg);
     }
 }
