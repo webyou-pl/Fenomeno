@@ -102,6 +102,22 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .logo_socjal{
+        text-align: right;
+        justify-content: flex-end;
+    }
+    .logo_socjal .logo{
+    position: relative;
+    }
+    .logo_socjal .logo_img{
+        max-width: 2rem;
+        height: auto;
+        
+    }
+    .logo_socjal .logo_text{
+        font-size: 1rem;
+    }
+    
     .socjal{
         display: none;
     }
