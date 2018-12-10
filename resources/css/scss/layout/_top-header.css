@@ -100,3 +100,73 @@
     transition-timing-function: ease-out;
     transition-duration: 250ms;
 }
+
+@media only screen and (max-width: 750px) {
+    .logo_socjal{
+        text-align: right;
+        justify-content: flex-end;
+    }
+    .logo_socjal .logo{
+    position: relative;
+    width: 200px;
+    }
+    .logo_socjal .logo_img{
+        max-width: 2rem;
+        height: auto;
+        
+    }
+    .logo_socjal .logo_text{
+        font-size: 1rem;
+    }
+    
+    .socjal{
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 23;
+        display: none;
+    }
+    .languages{
+        display: none;
+    }
+
+    .contact{
+        color: red;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: black;
+        display: block;
+        width: 100vw;
+        font-size: 0;
+    }
+    .contact .tel, .email{
+        margin: 0;
+    }
+
+    .contact .tel a, .email a{
+        background: #747d9c;
+        display: inline-block;
+        width: 50%;
+        height: 60px;
+        margin: auto;
+        border: 2px solid #000;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .contact .tel a{
+        background-image: url(../../../img/phone.svg);
+    }
+    .contact .tel a:hover{
+        transform: scale(1);
+    }
+    .contact .email a{
+        background-image: url(../../../img/email.svg);
+    }
+    .contact .email a:hover{
+        transform: scale(1);
+    }
+    .partners{
+        margin-bottom: 60px;
+    }
+}
