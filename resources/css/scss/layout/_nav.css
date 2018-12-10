@@ -26,7 +26,7 @@
     color: #0db095;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     .main-nav{
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@
     right: 0;
     width: 70%;
     height: 100vh;
-    background-color: #6c6e6e;
+    background-color: #404c75;
     margin-left: -70%;
     transition: all .5s ease;
     padding-top: 2rem;
@@ -54,8 +54,8 @@
 
     .main-nav:hover{
         margin-left: 0%;
-
     }
+
     .main-nav:hover::after{
         left: -65px;
     } 
@@ -72,6 +72,14 @@
         display: block;
         padding: 1rem 2rem;
         border-bottom: 2px solid black;
-    }
-    
+    }   
+}
+@media only screen and (max-width: 1800px) and (min-width:750px) {
+    .main-nav {
+        margin-top: 76px;
+        background-color: rgba(5, 0, 104, 0.4);
+        padding: 0rem 5rem 1rem 5rem;
+        width: 100%;
+        left: 0;
+        text-align: right;
 }

@@ -101,13 +101,14 @@
     transition-duration: 250ms;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     .logo_socjal{
         text-align: right;
         justify-content: flex-end;
     }
     .logo_socjal .logo{
     position: relative;
+    width: 200px;
     }
     .logo_socjal .logo_img{
         max-width: 2rem;
@@ -119,6 +120,10 @@
     }
     
     .socjal{
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 23;
         display: none;
     }
     .languages{
@@ -152,7 +157,16 @@
     .contact .tel a{
         background-image: url(../../../img/phone.svg);
     }
+    .contact .tel a:hover{
+        transform: scale(1);
+    }
     .contact .email a{
         background-image: url(../../../img/email.svg);
+    }
+    .contact .email a:hover{
+        transform: scale(1);
+    }
+    .partners{
+        margin-bottom: 60px;
     }
 }
