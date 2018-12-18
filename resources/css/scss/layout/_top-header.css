@@ -130,7 +130,7 @@
         display: none;
     }
 
-    .contact{
+    .top_header .contact{
         color: red;
         position: fixed;
         bottom: 0;

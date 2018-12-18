@@ -119,14 +119,20 @@ p.contact__form--address{
     }
 
     .contact__form{
-        position: inherit;
+        position: static;
         left: 0%;
         top: 0;
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     .contact__form--address{
         font-size: 1rem;
-        color: #0db095;
+        color: #000;
+    }
+
+    .contact__map {
+        position: static;
+        height: 50vh;
     }
 }
