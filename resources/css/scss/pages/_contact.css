@@ -9,6 +9,8 @@ section.contact{
 
 section.contact .container{
     max-width: 1200px;
+    height: 100%;
+    position: relative;
     margin: 0 auto;
     background-color: rgba(5, 0, 104, 0.6);
     border-radius: 11px;
@@ -40,11 +42,6 @@ section.contact .container{
     margin-bottom: 1rem;
 }
 
-.nazwa{
-    width: 1200px;
-    height: 100%;
-    position: relative;
-}
 
 .contact__map, .contact__form{
 
@@ -114,4 +111,22 @@ p.contact__form--address{
     font-weight: 300; 
     display: inline-block;
     border-bottom: 1px solid red;
+}
+
+@media only screen and (max-width: 1205px){
+    .contact{
+        width: 100%;
+    }
+
+    .contact__form{
+        position: inherit;
+        left: 0%;
+        top: 0;
+        width: 100%;
+    }
+
+    .contact__form--address{
+        font-size: 1rem;
+        color: #0db095;
+    }
 }
