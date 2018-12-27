@@ -120,3 +120,12 @@ footer {
     text-align: center;
     
 }
+
+@media only screen and (max-width: 750px) {
+    .oferta{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+    }
+}
