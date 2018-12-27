@@ -35,21 +35,54 @@
 }
 .show__tekst--first-line{
     font-size: 4rem;
-    animation-name: example;
+    animation-name: slide-from-right-to-left;
 }
 .show__tekst--second-line{
     font-size: 3rem;
-    animation-name: example2;
+    animation-name: slide-from-left-to-right;
 }
-@keyframes example2 {
+@keyframes slide-from-left-to-right {
     0%   {opacity: 0; left:50%;}
     20%  {opacity: 1; left:40%;}
     50%  {opacity: 1; left:30%;}
     100% {opacity: 0; left:0%;}
 }
-@keyframes example {
+@keyframes slide-from-right-to-left {
     0%   {opacity: 0; left:0;}
     20%  {opacity: 1; left:10%;}
     50%  {opacity: 1; left:20%;}
     100% {opacity: 0; left:50%;}
+}
+
+@media only screen and (max-width: 750px) {
+    .show__tekst--first-line, .show__tekst--second-line{
+        animation-duration: 5s;
+        animation-direction: reverse; 
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+    }
+
+    .show__tekst--first-line{
+        font-size: 1.5rem;
+        margin-left: 5%;
+        animation-name: from-top-to-bottom;
+        position: relative;
+    }
+    .show__tekst--second-line{
+        font-size: 1.2rem;
+        animation-name: from-bottom-to-top;
+        position: relative;
+        animation-duration: 8s;
+        left: 30%;
+    }
+}
+
+@keyframes from-top-to-bottom {
+    100% {opacity: 0; top:-100px;}
+    0%   {opacity: 1; top:0;}
+}
+@keyframes from-bottom-to-top {
+    100% {opacity: 0; bottom:0;}
+    80%  {opacity: 0; bottom:-150px;}
+    0%   {opacity: 1; bottom:0;}
 }
