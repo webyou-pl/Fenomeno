@@ -77,7 +77,27 @@
 /* Small phones from 0 to 480px */
 /* ----------------------------------------------------------------- */
 @media only screen and (max-width: 480px){
+.trainer-pictureBox{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
 
+	.reveal-modal {
+		visibility: hidden;
+		top: 60px; 
+		left: 80%;
+		margin-left: -300px;
+		width: 382px;
+		}
+.text{
+    margin-top:80px;
+    font-size: 30px;
+
+}
+    .trainer-pictureSmall{
+        width: 110px
+    }
 /* ---------------------------------------------------------------------- */
 /* Small phones to small tablets from 481px to 767px */
 /* ----------------------------------------------------------------- */

@@ -9,7 +9,7 @@ require_once 'structure/template.php';
 <section class="kadra--mainSection">
             <div class="row">
                 <!-- klasa powina byc ogolna -->
-                <h4 class="text">Kontakt</h4>
+                <h4 class="text">Kadra</h4>
                 <hr/>
             </div>
     <div class="row">
