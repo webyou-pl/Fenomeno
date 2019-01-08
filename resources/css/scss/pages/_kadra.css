@@ -14,6 +14,7 @@
     padding: 5px;
     border-radius: 100px;
     border: solid;
+    border-color: rgba(54, 196, 148, 0.5);
 }
 
 .trainer-pictureSmall:hover{
@@ -49,10 +50,6 @@
 
 
 /* Trener Pop Up */
-
-
-
-
 
 .trainer-pictureBox{
     width: 500px;
@@ -96,23 +93,66 @@
 
 }
     .trainer-pictureSmall{
-        width: 110px
+        width: 110px;
     }
+}
 /* ---------------------------------------------------------------------- */
 /* Small phones to small tablets from 481px to 767px */
 /* ----------------------------------------------------------------- */
 @media only screen and (max-width: 767px){
-    
+.trainer-pictureBox{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+
+	.reveal-modal {
+		visibility: hidden;
+		top: 60px; 
+		left: 70%;
+		margin-left: -300px;
+		width: 382px;
+		}
+    .text{
+    margin-top:90px;
+    font-size: 40px;
+
+    }
+    .trainer-pictureSmall{
+        width: 110px;
+    }
+}
 /* ---------------------------------------------------------------------- */
 /* Small tablet to big tablets from 768px to 1023px */
 /* ----------------------------------------------------------------- */
 @media only screen and (max-width: 1023px){
-   
+   .trainer-pictureBox{
+    width: 340px;
+    height: auto;
+    border-radius: 30px;
+}
+
+	.reveal-modal {
+		visibility: hidden;
+		top: 160px; 
+		left: 65%;
+		margin-left: -300px;
+		width: 450px;
+		}
+    .text{
+        font-size: 40px;
+
+    }
+
+}
 /* ---------------------------------------------------------------------- */
 /* Big tablet to 1200px */
 /* ----------------------------------------------------------------- */
 @media only screen and (max-width: 1200px){
-    
+    .text{
+    margin-top: 180px;
+    }
+}
 
 
 
