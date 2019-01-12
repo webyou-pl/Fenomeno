@@ -42,8 +42,10 @@ $template_start = '
             </div>
             <!-- start main navigation -->
             <nav>
+                
                 <div class="row">
                     <ul class="main-nav">
+                        <a href="index.php"><img src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
                         <li><a href="index.php">Strona główna</a></li>
                         <li><a href="o_szkole.php">O szkole</a></li>
                         <li><a href="oferta.php">Oferta</a></li>
