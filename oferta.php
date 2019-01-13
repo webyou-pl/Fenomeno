@@ -8,9 +8,12 @@ require_once 'structure/template.php';
                  <hr>
                 
             </div>
+            <div class="offer__download-button">
+            <a href="kontakt.php" class="btn btn-full btn-position1">Ściągnij tabelę</a>
+            </div>
         <div class="row">
             
-            
+        <div class="offer__scroll" style="overflow-x:auto;">    
         <table class="offer__table">
             <tr>
                 <th>Grupa</th>
@@ -76,13 +79,16 @@ require_once 'structure/template.php';
             
                 <tr>     
                 <th colspan="4" class="offer__table-bottomBox">Zajęcia dodatkowe* - jest to zbiór wszelkich form aktywności dostosowanych do danej grupy treningowej. W ofercie zajęć młodzi piłkarze będą korzystać z lekcji pływania, zajęć lekkoatletycznych, zajęć gimnastycznych oraz sztuk walki (judo, taekwondo, karate).</th>
-                </tr>  
+                </tr>
+            </div>
+
             
         </table>  
-            
-                <footer>
-               <a href="kontakt.php" class="btn btn-full">Skontaktuj się z nami</a>
-                </footer>
+            </div> 
+
+                <div class="offer__kontakt-button">
+               <a href="kontakt.php" class="btn btn-full btn-position2">Skontaktuj się z nami</a>
+                </div>
 
 
                         
