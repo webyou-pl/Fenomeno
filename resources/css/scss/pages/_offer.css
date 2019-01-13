@@ -67,7 +67,7 @@ input[type=submit]{
 
 .oferta{
     background-image: url(../../../img/ball-field-grass-114296.jpg);
-    height: 100vh;
+    height: 110vh;
 }
 
 
@@ -78,7 +78,7 @@ input[type=submit]{
 
 /* TABLE */
 .offer__table{
-    margin-top: 30px;
+    margin-top: 0px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
