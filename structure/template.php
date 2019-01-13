@@ -53,6 +53,7 @@ $template_start = '
                         <li><a href="galeria.php">Galeria</a></li>
                         <li><a href="kontakt.php">Kontakt</a></li> 
                     </ul>
+                    <div class="main-nav__overlay"></div>
                 </div> 
             </nav>
             <!-- End main navigation -->
