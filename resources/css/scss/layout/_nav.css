@@ -30,12 +30,13 @@
     position: fixed;
     display: block;
     height: 100vh;
-    width: 100vw;
+    width: 0vw;
     top: 0;
     left: 0;
+    opacity: 0;
     background:rgba(0, 0, 0, 0);
     z-index: 20;
-    transition: all .5s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -73,6 +74,8 @@
 
     .main-nav:hover ~ .main-nav__overlay{
         display: block;
+        width: 100vw;
+        opacity: 1;
         background:rgba(0, 0, 0, 0.5);
     }
 
