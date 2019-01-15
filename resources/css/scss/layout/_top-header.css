@@ -10,6 +10,15 @@
     border-bottom: 2px solid #0db095;
 }
 
+.socjal{
+    display: inline-block;
+}
+
+.top_header .contact{
+    display: flex;
+    align-items: center;
+}
+
 .socjal a:hover{
     border-bottom: none;
 }
@@ -101,7 +110,15 @@
     transition-duration: 250ms;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1800px) and (min-width:1201px) {
+    .logo_text{
+        width: 220px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     .logo_socjal{
         text-align: right;
         justify-content: flex-end;
