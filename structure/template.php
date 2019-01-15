@@ -34,9 +34,12 @@ $template_start = '
                     </div>
                 </div>
                 <div class="contact">
-                    <div>
-                        <div class="tel"><a href="#!"> Tel: 123 156 753</a></div>
-                        <div class="email"><a href="#!">Email: adres@domena.pl</a></div>
+                    <div class="tel"><a href="#!"> Tel: 123 156 753</a></div>
+                    <div class="email"><a href="#!">Email: adres@domena.pl</a></div>
+                    <div class="socjal">
+                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/facebook.png"></a>
+                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/instagram-new.png"></a>
+                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/youtube-play.png"></a>
                     </div>
                 </div>
             </div>
@@ -61,11 +64,6 @@ $template_start = '
                 <div class="logo">
                     <a href="index.php"><img class="logo_img" src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
                     <h1 class="logo_text"><a href="index.php">fenomeno <span class="color_awarded_one">wro</span>cław</a></h1>
-                </div>
-                <div class="socjal">
-                    <a href="#!"><img src="https://png.icons8.com/color/32/000000/facebook.png"></a>
-                    <a href="#!"><img src="https://png.icons8.com/color/32/000000/instagram-new.png"></a>
-                    <a href="#!"><img src="https://png.icons8.com/color/32/000000/youtube-play.png"></a>
                 </div>
             </div>
         </div>

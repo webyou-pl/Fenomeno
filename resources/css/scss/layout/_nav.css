@@ -2,14 +2,18 @@
 .main-nav{
     font-weight: 400;
     position: absolute;
-    right: 15%;
+    right: 100px;
     list-style: none;
     margin-top: 2rem;
 
 }
+.main-nav img{
+    display: none;
+}
+
 .main-nav li{
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -79,6 +83,10 @@
         background:rgba(0, 0, 0, 0.5);
     }
 
+    .main-nav img{
+        display: block;
+    }
+
     .main-nav:hover::after{
         left: -65px;
     } 
@@ -86,7 +94,6 @@
 
     .main-nav li{
         display: block;
-        /* background: red; */
         margin: 0px;
         
     }
@@ -107,7 +114,7 @@
         margin: 0 auto;
     }
 }
-@media only screen and (max-width: 1800px) and (min-width:1201px) {
+/* @media only screen and (max-width: 1800px) and (min-width:1201px) {
     .main-nav {
         margin-top: 76px;
         background-color: rgba(5, 0, 104, 0.4);
@@ -120,4 +127,4 @@
     .main-nav img{
         display: none;
     }
-}
+} */
