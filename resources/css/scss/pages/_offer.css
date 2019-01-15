@@ -9,7 +9,7 @@
 .btn:visited,
 input[type=submit]{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 30px;]
     font-weight:400;
     font-size:25px;
     text-decoration: none;
@@ -51,11 +51,23 @@ input[type=submit]{
     color:#fff;
 }
 
+ .btn-position1{
+        visibility: hidden;
+    }
+
+        .offer__kontakt-button{
+       text-align: center;
+        margin-top: 10px;
+
+        
+    }
+
+
 
 
 .oferta{
     background-image: url(../../../img/ball-field-grass-114296.jpg);
-    height: 100vh;
+    height: 110vh;
 }
 
 
@@ -66,7 +78,7 @@ input[type=submit]{
 
 /* TABLE */
 .offer__table{
-    margin-top: 30px;
+    margin-top: 0px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -114,12 +126,9 @@ td:hover{
     margin-right: auto;
     margin-top:5px;
 }
-section.oferta footer {
-    margin-top: 10px;
-    margin-bottom: 2rem;
-    text-align: center;
+
     
-}
+
 
 @media only screen and (max-width: 750px) {
     .oferta{
@@ -129,3 +138,89 @@ section.oferta footer {
         height: auto;
     }
 }
+
+/* ---------------------------------------------------------------------- */
+/* Small phones from 0 to 480px */
+/* ----------------------------------------------------------------- */
+@media only screen and (max-width: 480px){
+    .offer__table{
+        visibility: hidden;
+    }
+    .offer__scroll{
+        visibility: hidden;
+    }
+
+   .offer__download-button{
+        text-align: center;
+    }
+    .btn-position1{
+        visibility: visible;
+        margin-top: 150px;
+        
+    }
+    .btn-position2{
+       position: absolute;
+        margin-left: -40%;
+        top:450px;  
+    }
+     .offer__kontakt-button{
+        text-align: center;
+    }
+}
+/* ---------------------------------------------------------------------- */
+/* Small phones to small tablets from 481px to 767px */
+/* ----------------------------------------------------------------- */
+@media only screen and (min-width:481px) and (max-width: 767px){
+    .offer__table{
+        visibility: hidden;
+    }
+    .offer__scroll{
+        visibility: hidden;
+    }
+    .offer__download-button{
+        text-align: center;
+    }
+    .btn-position1{
+        visibility: visible;
+        margin-top: 150px;
+        
+    }
+    .offer__kontakt-button{
+        text-align: center;
+    }
+        .btn-position2{
+        position: absolute;
+        top:450px;
+        margin-left:-20%;
+
+        
+    }
+
+}[[]][]
+/* ---------------------------------------------------------------------- */
+/* Small tablet to big tablets from 768px to 1023px */
+/* ----------------------------------------------------------------- */
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .oferta{
+    background-image: url(../../../img/ball-field-grass-114296.jpg);
+    height: auto;
+    
+}
+
+    
+}
+/* ---------------------------------------------------------------------- */
+/* Big tablet to 1200px */
+/* ----------------------------------------------------------------- */
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .oferta{
+    background-image: url(../../../img/ball-field-grass-114296.jpg);
+    height: 110vh;
+    
+}
+
+}
+
+
+
+
