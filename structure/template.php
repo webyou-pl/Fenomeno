@@ -55,6 +55,7 @@ $template_start = '
                         <li><a href="kadra.php">Kadra</a></li>
                         <li><a href="galeria.php">Galeria</a></li>
                         <li><a href="kontakt.php">Kontakt</a></li> 
+                        <div class="footer-mobile">©2018 <a href="http://www.webyou.pl" target="_blank" >www.webyou.pl</a> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół webyou.</div>
                     </ul>
                     <div class="main-nav__overlay"></div>
                 </div> 
