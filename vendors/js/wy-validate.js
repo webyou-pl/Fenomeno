@@ -1,21 +1,25 @@
 function wyValidate(){
     var email, eEmail, message, eMessage;
 
-    email = document.forms["wyForm"]['email'].value;
-    message = document.forms["wyForm"]['message'].value;
-    // message = document.getElementById("message").value;
+    wyForm = document.forms["wyForm"];
     
-    if(email.length <= 9 || email == ""){
-        console.log('jestem tu');
-        eEmail = "Nieprawidłowy email";
+    if(wyForm.email.value.length <= 9){
+        eEmail = "Za krótki adres email";
+        document.getElementById("eEmail").innerHTML = eEmail;
+        return false;
+    }
+    var reg = /^[a-z\d]+[\w\d.-]*@(?:[a-z\d]+[a-z\d-]+\.){1,5}[a-z]{2,6}$/i;
+
+    if (reg.test(wyForm.email.value) === false){
+        eEmail = "Nieprawidłowy adres email";
         document.getElementById("eEmail").innerHTML = eEmail;
         return false;
     }
     document.getElementById("eEmail").innerHTML ="";
 
-    if(message.length <= 10 || email == ""){
-        console.log('jestem tu 2');
-        eMessage = "Nieprawidłowy email";
+
+    if(wyForm.message.value.length <= 10 ){
+        eMessage = "Zbyt krótka treść wiadomości";
         document.getElementById("eMessage").innerHTML = eMessage;
         return false;
     }
