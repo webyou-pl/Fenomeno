@@ -1,27 +1,43 @@
 function wyValidate(){
-    var email, eEmail, message, eMessage;
+    var eEmail, eMessage, f = true;
+    var reg = /^[a-z\d]+[\w\d.-]*@(?:[a-z\d]+[a-z\d-]+\.){1,5}[a-z]{2,6}$/i;
 
     wyForm = document.forms["wyForm"];
     
-    if(wyForm.email.value.length <= 9){
+    if(wyForm.email.value.length == ""){
+        eEmail = "Wprowadź email";
+        document.getElementById("eEmail").innerHTML = eEmail;
+        f = false;
+    }
+    else if(wyForm.email.value.length <= 9){
         eEmail = "Za krótki adres email";
         document.getElementById("eEmail").innerHTML = eEmail;
-        return false;
-    }
-    var reg = /^[a-z\d]+[\w\d.-]*@(?:[a-z\d]+[a-z\d-]+\.){1,5}[a-z]{2,6}$/i;
-
-    if (reg.test(wyForm.email.value) === false){
+        f = false;
+    } 
+    else if(reg.test(wyForm.email.value) === false){
         eEmail = "Nieprawidłowy adres email";
         document.getElementById("eEmail").innerHTML = eEmail;
-        return false;
+        f = false;
+    }else{
+        document.getElementById("eEmail").innerHTML ="";
     }
-    document.getElementById("eEmail").innerHTML ="";
 
-
-    if(wyForm.message.value.length <= 10 ){
+    if(wyForm.message.value.length == ""){
+        eMessage = "Wprowadź treść wiadomości";
+        document.getElementById("eMessage").innerHTML = eMessage;
+        f = false;
+    }
+    else if(wyForm.message.value.length <= 10 ){
         eMessage = "Zbyt krótka treść wiadomości";
         document.getElementById("eMessage").innerHTML = eMessage;
+        f = false;
+    }else{
+        document.getElementById("eMessage").innerHTML = "";
+    }
+    
+    if(f === true){
+        return true;
+    }else{
         return false;
     }
-    ment.getElementById("eMessage").innerHTML = "";
 }

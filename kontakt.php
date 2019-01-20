@@ -23,7 +23,7 @@ require_once 'structure/template.php';
                             <p id="eEmail" class="e--form"></p>
                             
                             <p>Treść Wiadomości:</p>
-                            <textarea id="message" name="message" rows="5" cols="30" >  </textarea>
+                            <textarea id="message" name="message" rows="5" cols="30" ></textarea>
                             <p id="eMessage" class="e--form"></p>
                             <input type="submit" value="WYŚLIJ" >
                         </form>
