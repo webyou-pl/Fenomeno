@@ -58,6 +58,7 @@
     transition: all .5s ease;
     padding-top: 2rem;
     z-index: 21;
+    overflow-x: hidden;
     }
     .main-nav::after{
         content: '';
@@ -66,10 +67,12 @@
         top: 10px;
         width: 45px;
         height: 45px;
-        background-image: url(../../../img/menu.svg);
+        background-color: #0db095;
+        -webkit-mask:  url(../../../img/menu.svg) no-repeat 50% 50%;
+        mask: url(../../../img/menu.svg) no-repeat 50% 50%;
         transition: all .1s ease;
         z-index: 23;
-
+        filter: grayscale(0%);
     }
 
     .main-nav:hover{
@@ -88,7 +91,7 @@
     }
 
     .main-nav:hover::after{
-        left: -65px;
+        opacity: 0;
     } 
 
 
