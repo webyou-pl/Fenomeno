@@ -14,6 +14,8 @@
     transform:translate(-50%, -50%);
     z-index: 0;
     height: 100vh;
+    opacity: .65;
+    filter: blur(3px);
 }
 .show__tekst{
     position: absolute;

@@ -12,6 +12,9 @@ html,body{
     color: #ffff;
     height: 100vh;
 }
+body{
+    background: #000;
+}
 
 h1{
     font-size: 250%;
