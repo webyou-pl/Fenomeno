@@ -19,11 +19,11 @@ require_once 'structure/template.php';
                         </p>
                         <form name="wyForm" action="none" onsubmit="return wyValidate()">
                             <p>Twój Email:</p> 
-                            <input id="email" type="text" name="email" placeholder="Twój adres email">
+                            <input id="email" type="text" name="email" placeholder="Twój adres email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                             <p id="eEmail" class="e--form"></p>
                             
                             <p>Treść Wiadomości:</p>
-                            <textarea id="message" name="message" rows="5" cols="30" ></textarea>
+                            <textarea id="message" name="message" rows="5" cols="30" required ></textarea>
                             <p id="eMessage" class="e--form"></p>
                             <input type="submit" value="WYŚLIJ" >
                         </form>
