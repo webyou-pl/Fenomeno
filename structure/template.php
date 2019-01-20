@@ -18,6 +18,7 @@ $template_start = '
     <script src="vendors/js/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="vendors/js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
     <script src="vendors/js/min_slider_partners.js" type="text/javascript"></script>
+    <script src="vendors/js/wy-validate.js" type="text/javascript"></script>
 <!-- Start top heder -->
 <header>
     <section>

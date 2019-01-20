@@ -17,15 +17,15 @@ require_once 'structure/template.php';
                             Tel. 213 123 532<br />
                             Email: adres@domena.pl<br />
                         </p>
-                        <form action="none">
+                        <form name="wyForm" action="none" onsubmit="return wyValidate()">
                             <p>Twój Email:</p> 
-                            <input type="text" name="firstname" placeholder="Twój adres email">
-                            <p class="e--form">e_email</p>
+                            <input id="email" type="text" name="email" placeholder="Twój adres email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                            <p id="eEmail" class="e--form"></p>
                             
                             <p>Treść Wiadomości:</p>
-                            <textarea name="message" rows="5" cols="30" >  </textarea>
-                            <p class="e--form">e_message</p>
-                            <input type="submit" value="WYŚLIJ">
+                            <textarea id="message" name="message" rows="5" cols="30" required ></textarea>
+                            <p id="eMessage" class="e--form"></p>
+                            <input type="submit" value="WYŚLIJ" >
                         </form>
                     </div>
                     <div class="contact__map">
