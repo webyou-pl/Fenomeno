@@ -55,7 +55,7 @@ input[type=submit]{
         visibility: hidden;
     }
 
-        .offer__kontakt-button{
+.offer__kontakt-button{
        text-align: center;
         margin-top: 10px;
 
@@ -196,7 +196,7 @@ td:hover{
         
     }
 
-}[[]][]
+}
 /* ---------------------------------------------------------------------- */
 /* Small tablet to big tablets from 768px to 1023px */
 /* ----------------------------------------------------------------- */

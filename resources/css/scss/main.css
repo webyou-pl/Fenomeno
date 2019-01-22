@@ -86,3 +86,52 @@ hr {
 .box{
     padding: 1%;
 }
+
+
+
+
+
+#popup_bg{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+#popup_main_div{
+    position: fixed;
+    width:1920px;
+    height: 200px;
+    background-color: white;
+    margin-left:;
+    top:77%;
+        
+}
+
+#button{
+    position: static;
+    width:200px;
+    height: 55px;
+    top:100%;
+    
+}
+
+.index__kontakt-button{
+       text-align: center;
+    margin-top: 50px;
+
+        
+    }
+#popup_text{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+

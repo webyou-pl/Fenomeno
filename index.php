@@ -57,8 +57,24 @@ require_once 'structure/template.php';
             </div>
         </div>
     </div>
+    
+    <div id="popup_bg">
+        <div id="popup_main_div">
+            <div id="close_popup_div">
+                <div id="popup_text">
+                    <p>Udzielenie zgody na dowolne, nieodpłatne wykorzystanie treści.
+Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgody na wykorzystanie tekstu wygenerowanego przez poniższy generator do dowolnych celów - zarówno komercyjnych jak i niekomercyjnych. Dopuszcza się dokonywanie dowolnych modyfikacji treści. Nie wymaga się zamieszczania jakiejkolwiek informacji zwrotnej o autorze tekstu.</p>
+                </div>
+                <div class="index__kontakt-button">
+                    <a href="#" class="btn btn-full btn-position2" id="accept_button" onclick="ClosePopUp()">Zgadzam się</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php echo $template_footer; ?>
 </footer>
 <!-- end footer -->
+<script type="text/jscript" src="resources/js/index_js.js"></script>
 </body>
 </html>
