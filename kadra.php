@@ -95,10 +95,10 @@ require_once 'structure/template.php';
     
     
 </section>
-<scrip src="vendors/js/jquery.reveal.js"></scrip>
-</body>
+<?php echo $template_footer; ?>
+<script src="vendors/js/jquery.reveal.js"></script>
+
 <script type="text/javascript" src="vendors/js/jquery-1.4.4.min.js"></script>
 <script type="text/javascript" src="vendors/js/jquery.reveal.js"></script>
-<?php echo $template_footer; ?>
 
 

@@ -56,32 +56,6 @@ require_once 'structure/template.php';
             </div>
         </div>
     </div>
-    
-<!-- ************
-COOKIES Start
-************-->
-
-    <div class="cookiewarning bg-warning cookie-background">
-        
-        <p>Zasada prywatności i cookie</pp>
-		<p>Udzielenie zgody na dowolne, nieodpłatne wykorzystanie treści.
-Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgody na wykorzystanie tekstu wygenerowanego przez poniższy generator do dowolnych celów - zarówno komercyjnych jak i niekomercyjnych. Dopuszcza się dokonywanie dowolnych modyfikacji treści. Nie wymaga się zamieszczania jakiejkolwiek informacji zwrotnej o autorze tekstu.</p>
-    
- <div>
-               <a href="#" class="btns btns-full btn-position3 btn-warning btn-xl">Akceptuję</a>
-                </div>
-        
-    </div>
-
-    <!-- ************
-COOKIES End
-************-->
-
-    
-    
-    
-    
-    
     <?php echo $template_footer; ?>
 </footer>
 

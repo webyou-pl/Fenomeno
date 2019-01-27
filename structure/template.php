@@ -19,6 +19,8 @@ $template_start = '
     <script src="vendors/js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
     <script src="vendors/js/min_slider_partners.js" type="text/javascript"></script>
     <script src="vendors/js/wy-validate.js" type="text/javascript"></script>
+
+
 <!-- Start top heder -->
 <header>
     <section>
@@ -76,9 +78,26 @@ $template_start = '
 		
 $template_end = '	  ';	
 
-$template_footer = '	    <div class="footer">
+$template_footer = '	 
+<div class="cookiewarning bg-warning">
+<div class="cookieBackground">
+<p>Zasada prywatności i cookie</pp>
+<p>Udzielenie zgody na dowolne, nieodpłatne wykorzystanie treści.
+Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgody na wykorzystanie tekstu wygenerowanego przez poniższy generator do dowolnych celów - zarówno komercyjnych jak i niekomercyjnych. Dopuszcza się dokonywanie dowolnych modyfikacji treści. Nie wymaga się zamieszczania jakiejkolwiek informacji zwrotnej o autorze tekstu.</p>
+
+<div>
+       <a href="#" class="btn btn-full btn-position3 btn-warning btn-xl">Akceptuję</a>
+        </div>
+</div>
+</div>
+
+<div class="footer">
 ©2018 <a href="http://www.webyou.pl" target="_blank" >www.webyou.pl</a> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół webyou.
-</div>  ';	
+</div>  
+
+
+<script type="text/jscript" src="resources/js/index_js.js"></script>
+';	
 ?>
 
 

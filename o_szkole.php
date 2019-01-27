@@ -25,7 +25,7 @@ require_once 'structure/template.php';
                 </footer>
             </div>
         </section>
-    <?php echo $template_footer; ?>
+    <?php echo $template_footer; ?> 
 </body>
 
 </html>
