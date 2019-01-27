@@ -93,13 +93,14 @@ hr {
 }
 
 
-body.cookiewarning {
+.cookiewarning {
 	padding-bottom: 15em;
+    
 }
-body div.cookiewarning {
+div.cookiewarning {
 	display: none;
 }
-body.cookiewarning div.cookiewarning {
+.cookiewarning div.cookiewarning {
     padding: 1em;	
 	display: block;
 	position: fixed;
@@ -111,11 +112,18 @@ body.cookiewarning div.cookiewarning {
     text-align: center;
 }
 
-body .removecookie {
+.cookieBackground{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 99;
+}
+
+.removecookie {
 	display: inline-block;
 }
 
-body.cookiewarning .removecookie {
+.cookiewarning .removecookie {
 	display: none;
 }
 

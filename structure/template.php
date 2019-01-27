@@ -70,6 +70,7 @@ $template_start = '
             </div>
         </div>
     </section>
+    
 </header>
 <!-- END top heder -->';
 		

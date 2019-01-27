@@ -60,6 +60,7 @@ require_once 'structure/template.php';
 
 
     <div class="cookiewarning bg-warning">
+        <div class="cookieBackground">
         <p>Zasada prywatności i cookie</pp>
 		<p>Udzielenie zgody na dowolne, nieodpłatne wykorzystanie treści.
 Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgody na wykorzystanie tekstu wygenerowanego przez poniższy generator do dowolnych celów - zarówno komercyjnych jak i niekomercyjnych. Dopuszcza się dokonywanie dowolnych modyfikacji treści. Nie wymaga się zamieszczania jakiejkolwiek informacji zwrotnej o autorze tekstu.</p>
@@ -67,6 +68,7 @@ Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgo
  <div>
                <a href="#" class="btn btn-full btn-position3 btn-warning btn-xl">Akceptuję</a>
                 </div>
+        </div>
     </div>
 
     
