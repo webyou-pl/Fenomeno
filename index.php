@@ -85,6 +85,6 @@ COOKIES End
     <?php echo $template_footer; ?>
 </footer>
 
-<script type="text/jscript" src="resources/js/index_js.js"></script>
+<script type="text/jscript" src="resources/js/index_cookies_js.js"></script>
 </body>
 </html>
