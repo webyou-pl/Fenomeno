@@ -57,7 +57,9 @@ require_once 'structure/template.php';
         </div>
     </div>
     
-
+<!-- ************
+COOKIES Start
+************-->
 
     <div class="cookiewarning bg-warning">
         <div class="cookieBackground">
@@ -71,7 +73,10 @@ Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgo
         </div>
     </div>
 
-    
+    <!-- ************
+COOKIES End
+************-->
+
     
     
     
