@@ -86,7 +86,7 @@ $template_footer = '
 Właściciel serwisu działającego pod domeną jakwylaczyccookie.pl udziela zgody na wykorzystanie tekstu wygenerowanego przez poniższy generator do dowolnych celów - zarówno komercyjnych jak i niekomercyjnych. Dopuszcza się dokonywanie dowolnych modyfikacji treści. Nie wymaga się zamieszczania jakiejkolwiek informacji zwrotnej o autorze tekstu.</p>
 
 <div>
-       <a href="#" class="btn btn-full btn-position3 btn-warning btn-xl">Akceptuję</a>
+       <a href="#" class="btns btns-full btn-position3 btn-warning btn-xl">Akceptuję</a>
         </div>
 </div>
 </div>
