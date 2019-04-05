@@ -97,3 +97,19 @@
 
 }
 
+.yellow-card{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    height: 400px;
+    width: 300px;
+    background: yellow;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    color: #000;
+}
