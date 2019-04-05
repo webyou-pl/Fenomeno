@@ -24,24 +24,9 @@ $template_start = '
     <section>
         <div class="top_header">
             <div class="lan_con">
-                <div class="languages">
-                    <div>
-                        <a href="#!"> 
-                            <img src="https://png.icons8.com/color/24/000000/poland.png">
-                        </a>
-                        <a href="#!">
-                            <img src="https://png.icons8.com/color/24/000000/great-britain.png">
-                        </a>
-                    </div>
-                </div>
                 <div class="contact">
                     <div class="tel"><a href="#!"> Tel: 123 156 753</a></div>
                     <div class="email"><a href="#!">Email: adres@domena.pl</a></div>
-                    <div class="socjal">
-                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/facebook.png"></a>
-                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/instagram-new.png"></a>
-                        <a href="#!"><img src="https://png.icons8.com/color/32/000000/youtube-play.png"></a>
-                    </div>
                 </div>
             </div>
             <!-- start main navigation -->
@@ -50,7 +35,6 @@ $template_start = '
                 <div class="row">
                     <ul class="main-nav">
                         <a href="index.php"><img src="resources/img/logo_fenomeno_wroclaw.png" alt="logo"/></a> 
-                        <li><a href="index.php">Strona główna</a></li>
                         <li><a href="o_szkole.php">O szkole</a></li>
                         <li><a href="oferta.php">Oferta</a></li>
                         <li><a href="kadra.php">Kadra</a></li>
