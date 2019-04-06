@@ -4,14 +4,14 @@
     background-size: cover;
     background-position: center;
     height:100vh;
-    background-attachment: fixed;
-    width: 100%;
-    bottom:0;
+  
+    
+    
 }
 
 
 .trainer-pictureSmall{
-    padding: 5px;
+    
     border-radius: 100px;
     border: solid;
     border-color: rgba(54, 196, 148, 0.5);
@@ -42,6 +42,7 @@
 .kadra--mainSectionNames{
     font-weight: 400;
     text-shadow: 2px 2px #000000;
+    margin-bottom: 20px;
        
 }
 
@@ -74,25 +75,38 @@
 /* Small phones from 0 to 480px */
 /* ----------------------------------------------------------------- */
 @media only screen and (max-width: 480px){
-.trainer-pictureBox{
-    width: 280px;
+    .trainer-pictureBox{
+    width: 240px;
     height: auto;
     border-radius: 50px;
-}
-
-	.reveal-modal {
-		top: 60px; 
-		left: 82%;
-		width: 362px;
-		}
-.text{
-    margin-top:80px;
-    font-size: 30px;
-
-}
-    .trainer-pictureSmall{
+    }
+       .trainer-pictureSmall{
         width: 110px;
     }
+
+	.reveal-modal {
+		top: 40px; 
+        left:82%;
+        right:50px;
+		width: 360px;
+		}
+    
+    .text{
+    margin-top:80px;
+    font-size: 40px;
+    }
+    .trener_text{
+        font-size: 15px;
+    
+    }
+     h6{
+        font-size: 20px
+    }
+        .kadra--mainSection{
+        height: 250vh
+    }   
+
+ 
 }
 /* ---------------------------------------------------------------------- */
 /* Small phones to small tablets from 481px to 767px */
@@ -105,19 +119,35 @@
 }
 
 	.reveal-modal {
-		top: 60px; 
-		left: 70%;
-		width: 382px;
-		}
+    top: 55px; 
+    left:70%;
+    width: 382px;
+    }
     .text{
     margin-top:90px;
-    font-size: 40px;
+    font-size: 25px;
 
     }
-    .trainer-pictureSmall{
-        width: 110px;
+        .trener_text{
+        font-size: 15px;
+    
     }
-}
+    .trainer-pictureSmall{
+    width: 110px;
+    }
+     h6{
+    font-size: 25px
+    }
+    .kadra--mainSection{
+
+    height: 200vh;
+    }  
+        .trainer-pictureBox{
+    width: 270px;
+    }
+    .kadra--mainSectionNames{
+        font-size: 20px;
+    }
 /* ---------------------------------------------------------------------- */
 /* Small tablet to big tablets from 768px to 1023px */
 /* ----------------------------------------------------------------- */
@@ -130,7 +160,8 @@
 
 	.reveal-modal {
 		top: 160px; 
-		left: 65%;
+		left:auto;
+        right: auto;
 		width: 450px;
 		}
     .text{
@@ -138,7 +169,12 @@
         font-size: 40px;
 
     }
+    .kadra--mainSection{
+    height: auto;
+    }  
 
+            
+      
 }
 /* ---------------------------------------------------------------------- */
 /* Big tablet to 1200px */
@@ -147,6 +183,9 @@
     .text{
     margin-top: 180px;
     }
+            .kadra--mainSection{
+       
+            height: 100vh !important;}
 }
 
 
