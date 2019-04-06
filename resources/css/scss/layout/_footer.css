@@ -97,19 +97,50 @@
 
 }
 
+.yellow-card.showCard{
+    right: 30px;
+    transform: translateY(-50%) rotate(0deg);
+
+}
+
 .yellow-card{
     position: fixed;
     top: 50%;
-    transform: translateY(-50%);
-    right: 30px;
+    transform: translateY(-50%) rotate(-40deg);
+    right: -280px;
     height: 400px;
     width: 300px;
-    background: yellow;
+    background: #e4e947;
     padding: 20px;
     border-radius: 20px;
     font-size: 16px;
-    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     color: #000;
+    transition: .5s all ease-in-out;
+    animation: show-yellow-car 1s 1;
+    z-index: 21;
+}
+.yellow-card .yellow-card__body{
+    position: relative;
+
+}
+
+.exit-news-card{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.yellow-card p.data{
+    margin-bottom: 1em;
+}
+
+@keyframes show-yellow-car{
+    100% {
+        right: -280px;
+        transform: translateY(-50%) rotate(-40deg); 
+    }
+    0% {
+        right: -500px;
+        transform: translateY(-50%) rotate(0deg);
+    }
 }
