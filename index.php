@@ -6,7 +6,7 @@ require_once 'structure/template.php';
 <section class="main">
     <div class="show">
         <video autoplay muted loop class="show__video">
-            <source src="resources/video.mp4" type="video/mp4">
+            <source src="resources/video1.mp4" type="video/mp4">
         </video>
         <div class="show__tekst">
             <span class="show__tekst--first-line">Z nami osiągniesz sukces</span>

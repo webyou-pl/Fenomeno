@@ -9,8 +9,8 @@
 .btn:visited,
 input[type=submit]{
     display: inline-block;
-    padding: 10px 30px;]
-    font-weight:00;
+    padding: 10px 30px;
+    font-weight:300;
     font-size:25px;
     text-decoration: none;
     border-radius: 200px;
