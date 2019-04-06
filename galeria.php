@@ -15,7 +15,7 @@ require_once 'structure/template.php';
         <!-- Big Image -->
     
         <div class="gallery">
-            <a href="resources/img/Galeria/1.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/1-small.jpg"></a>
+            <a href="Gallery/galeria2018.php"> <img src="resources/img/Galeria/1-small.jpg"></a>
             <a href="resources/img/Galeria/2.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/2-small.jpg"></a>
             <a href="resources/img/Galeria/3.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/3-small.jpg"></a>
             <a href="resources/img/Galeria/4.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/4-small.jpg"></a>
