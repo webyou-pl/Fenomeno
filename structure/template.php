@@ -59,7 +59,53 @@ $template_start = '
 		
 $template_end = '	  ';	
 
-$template_footer = '<div class="footer">
+$template_footer = '
+<footer class="down_footer">
+    <div class="partners">
+        <div id="jssor_1" class="footer_slides">
+            <h4 class="text_sliders">Partnerzy:</h4>
+            <!-- Loading Screen -->
+            <div data-u="loading" class="loading">
+                <img  src="resources/img/partners/spin.svg" />
+            </div>
+            <div data-u="slides" class="slider">
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/adidas.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/CarolinaPanthers.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Denver-Broncos-Logo.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/new-balance-logo.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/nike.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Puma.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/adidas.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/CarolinaPanthers.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/Denver-Broncos-Logo.png" />
+                </div>
+                <div>
+                    <img id="img_slider" data-u="image" src="resources/img/partners/nike.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php echo $template_footer; ?>
+
+
+<div class="footer">
 ©2018 <a href="http://www.webyou.pl" target="_blank" >www.webyou.pl</a> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół webyou.
 </div>
 <div class="yellow-card" id="news-card" onclick="addShow(this)">
@@ -69,7 +115,7 @@ $template_footer = '<div class="footer">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
-
+</footer>
 ';	
 ?>
 

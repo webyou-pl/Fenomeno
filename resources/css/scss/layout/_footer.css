@@ -120,8 +120,11 @@
     box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
     z-index: 21;
     overflow: auto;
-    
 }
+.yellow-card:hover{
+    cursor: pointer;
+}
+
 .yellow-card .yellow-card__body{
     position: relative;
 
@@ -175,6 +178,16 @@
     .yellow-card{
         transform: translateY(-50%) rotate(-25deg);
         right: -325px;
+        animation: show-yellow-car-rwd 1s 1;
     }
 
+}
+
+@keyframes show-yellow-car-rwd{
+    100% {
+        right: -325px;
+    }
+    0% {
+        right: -500px;
+    }
 }
