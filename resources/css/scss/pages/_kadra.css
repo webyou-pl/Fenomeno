@@ -1,9 +1,12 @@
 
 .kadra--mainSection {
     background-image: url(../../../img/background_for_kadra.jpg);
+    background-position: top;
+    background-repeat: no-repeat; 
     background-size: cover;
-    background-position: center;
-    
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0rem 0 2rem 0;
   
     
     

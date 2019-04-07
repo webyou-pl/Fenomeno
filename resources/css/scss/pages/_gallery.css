@@ -22,8 +22,14 @@
     font-size: 25px;
     margin-top: 15px;
     font-weight: 500;
+    color: white;  
+}
+.galleryp:active{
     
-    
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: white;  
 }
 a{
     text-decoration: none;

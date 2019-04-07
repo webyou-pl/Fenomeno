@@ -71,7 +71,12 @@ input[type=submit]{
 
 .oferta{
     background-image: url(../../../img/ball-field-grass-114296.jpg);
-    height: 110vh;
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh !important;
+    padding: 0rem 0 2rem 0;
 }
 
 
@@ -88,6 +93,7 @@ input[type=submit]{
     margin-right: auto;
     text-align: center;
     table-layout: fixed;
+    margin-top: 30px;
 }
 
 table,tr,th,td{
@@ -99,6 +105,8 @@ table,tr,th,td{
     background: #4c5796;
     opacity: 0.8;
     color: white;
+    
+    
 }
 td{
     padding: 20px;
