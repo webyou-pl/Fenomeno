@@ -3,7 +3,7 @@
     background-image: url(../../../img/background_for_kadra.jpg);
     background-size: cover;
     background-position: center;
-    height:100vh;
+    
   
     
     
@@ -86,9 +86,9 @@
 
 	.reveal-modal {
 		top: 40px; 
-        left:82%;
+        left:87%;
         right:50px;
-		width: 360px;
+		width: 340px;
 		}
     
     .text{
@@ -148,20 +148,23 @@
     .kadra--mainSectionNames{
         font-size: 20px;
     }
+            .kadra--mainSection{
+        height: 250vh
+    }   
 /* ---------------------------------------------------------------------- */
 /* Small tablet to big tablets from 768px to 1023px */
 /* ----------------------------------------------------------------- */
 @media only screen and (min-width:768px) and (max-width: 1023px){
    .trainer-pictureBox{
-    width: 340px;
+    width: 320px;
     height: auto;
     border-radius: 30px;
 }
 
 	.reveal-modal {
-		top: 160px; 
-		left:auto;
-        right: auto;
+		top: 130px; 
+        left:87%;
+        
 		width: 450px;
 		}
     .text{
@@ -169,9 +172,7 @@
         font-size: 40px;
 
     }
-    .kadra--mainSection{
-    height: auto;
-    }  
+
 
             
       
