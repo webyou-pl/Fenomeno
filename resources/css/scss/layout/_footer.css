@@ -97,3 +97,84 @@
 
 }
 
+.yellow-card.showCard{
+    right: 30px;
+    transform: translateY(-50%) rotate(0deg);
+
+}
+
+.yellow-card{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%) rotate(-40deg);
+    right: -280px;
+    height: 400px;
+    width: 300px;
+    background: #e4e947;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    transition: .5s all ease-in-out;
+    animation: show-yellow-car 1s 1;
+    box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
+    z-index: 21;
+    overflow: auto;
+    
+}
+.yellow-card .yellow-card__body{
+    position: relative;
+
+}
+.yellow-card::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .yellow-card::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .yellow-card::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .yellow-card::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.exit-news-card{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.yellow-card p.data{
+    margin-bottom: 1em;
+}
+
+@keyframes show-yellow-car{
+    100% {
+        right: -280px;
+        transform: translateY(-50%) rotate(-40deg); 
+    }
+    0% {
+        right: -500px;
+        transform: translateY(-50%) rotate(0deg);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .yellow-card.showCard{
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
+    .yellow-card{
+        transform: translateY(-50%) rotate(-25deg);
+        right: -325px;
+    }
+
+}

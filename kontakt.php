@@ -18,9 +18,13 @@ require_once 'structure/template.php';
                             Email: adres@domena.pl<br />
                         </p>
                         <form name="wyForm" action="none" onsubmit="return wyValidate()">
-                            <p>Twój Email:</p> 
+                            <p>Email:</p> 
                             <input id="email" type="text" name="email" placeholder="Twój adres email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                             <p id="eEmail" class="e--form"></p>
+
+                            <p>Tel:</p>
+                            <input id="phone" type="tel" name="phone" placeholder="Twój nr. tel." required pattern="[0-9]{9}">
+                            <p id="ePhone" class="e--form"></p>
                             
                             <p>Treść Wiadomości:</p>
                             <textarea id="message" name="message" rows="5" cols="30" required ></textarea>

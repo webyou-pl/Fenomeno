@@ -41,3 +41,16 @@ function wyValidate(){
         return false;
     }
 }
+
+// pokaz karty
+function addShow(card){
+    var card = document.getElementById('news-card');
+    if(card.classList.length == 1){
+        console.log(card.classList);
+        card.classList.add("showCard");
+    }
+    else{
+        card.classList.remove("showCard");
+    }
+}
+
