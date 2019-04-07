@@ -23,7 +23,11 @@ input[type=submit]{
     background-color:forestgreen;
     border: 1px solid forestgreen;
     color:#fff;
-    margin-right:15px;
+    
+        transform:translateX(-50%);
+    position: absolute;
+    left: 50%;
+    
 }
 .btn-ghost:link,
 .btn-ghost:visited{
@@ -155,13 +159,18 @@ td:hover{
     }
     .btn-position1{
         visibility: visible;
-        margin-top: 150px;
+        margin-top: 10%;
+        left:50%;
+        
         
     }
     .btn-position2{
-       position: absolute;
-        margin-left: -40%;
-        top:450px;  
+       position:absolute;
+        top:60%;
+        min-width: 250px;
+        right:50%;
+        transform:translate(50%, -50%);]
+         
     }
      .offer__kontakt-button{
         text-align: center;
@@ -191,7 +200,8 @@ td:hover{
         .btn-position2{
         position: absolute;
         top:450px;
-        margin-left:-20%;
+          transform:translate(50%, -50%);
+        top:450px;  
 
         
     }
