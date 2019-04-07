@@ -33,7 +33,7 @@
     color: #0db095;
 }
 
-.main-n[av__overlay{
+.main-nav__overlay{
     position: fixed;
     display: block;
     height: 100vh;
@@ -83,7 +83,7 @@
     }
 
     .main-nav:hover ~ .main-nav__overlay{
-        display: block;[[[[[[]]]]]]
+        display: block;
         width: 100vw;
         opacity: 1;
         background:rgba(0, 0, 0, 0.5);
