@@ -1,4 +1,4 @@
-[<?php
+<?php
 require_once 'structure/template.php';
 ?>
 <?php echo $template_start; ?>
@@ -15,24 +15,10 @@ require_once 'structure/template.php';
         <!-- Big Image -->
     
         <div class="gallery">
-            <a href="resources/img/Galeria/1.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/1-small.jpg"></a>
-            <a href="resources/img/Galeria/2.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/2-small.jpg"></a>
-            <a href="resources/img/Galeria/3.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/3-small.jpg"></a>
-            <a href="resources/img/Galeria/4.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/4-small.jpg"></a>
-            <a href="resources/img/Galeria/5.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/5-small.jpg"></a>
-            <a href="resources/img/Galeria/6.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/6-small.jpg"></a>
-            <a href="resources/img/Galeria/7.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/7-small.jpg"></a>
-            <a href="resources/img/Galeria/8.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/8-small.jpg"></a>
-            <a href="resources/img/Galeria/9.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/9-small.jpg"></a>
-            <a href="resources/img/Galeria/10.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/10-small.jpg"></a>
-            <a href="resources/img/Galeria/11.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/11-small.jpg"></a>
-            <a href="resources/img/Galeria/12.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/12-small.jpg"></a>
-            <a href="resources/img/Galeria/1.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/1-small.jpg"></a>
-            <a href="resources/img/Galeria/2.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/2-small.jpg"></a>
-            <a href="resources/img/Galeria/3.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/3-small.jpg"></a>
-            <a href="resources/img/Galeria/4.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/4-small.jpg"></a>
-            <a href="resources/img/Galeria/5.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/5-small.jpg"></a>
-            <a href="resources/img/Galeria/6.jpg" data-lightbox="mygallery"> <img src="resources/img/Galeria/6-small.jpg"></a>
+            <a href="galeria2018.php"><p class="galleryp">2018</p><img src="resources/img/Galeria/1-small.jpg"></a>
+            <a href="galeria2019.php"><p class="galleryp">2019</p><img src="resources/img/Galeria/2-small.jpg"></a>
+            <a href="galeria2020.php"><p class="galleryp">2020</p><img src="resources/img/Galeria/3-small.jpg"></a>
+            
         </div>
 
 

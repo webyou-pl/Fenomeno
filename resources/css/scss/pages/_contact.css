@@ -75,7 +75,7 @@ section.contact .container{
     border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-.contact__form input[type="text"],textarea{
+.contact__form input[type="text"], input[type="tel"],textarea{
     max-width: 100%;
     min-width: 100%;
     background:rgba(13, 176, 149, 0.1);

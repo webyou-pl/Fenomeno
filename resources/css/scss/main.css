@@ -41,22 +41,13 @@ h3{
     margin-right: 45%;
 }
 
-h4{
-   
-}
 
-h5{
-
-}
 
 h6{
     color:black;
     font-size: 30px;
 }
 
-p{
-    
-}
 
 hr { 
     display: block;
@@ -86,3 +77,90 @@ hr {
 .box{
     padding: 1%;
 }
+
+/************
+COOKIES Start
+************/
+
+
+.cookiewarning {
+	padding-bottom: 15em;
+    
+}
+div.cookiewarning {
+	display: none;
+}
+.cookiewarning div.cookiewarning {
+    padding: 1em;	
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+    text-align: center;
+}
+
+.cookieBackground{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 99;
+}
+
+.removecookie {
+	display: inline-block;
+}
+
+.cookiewarning .removecookie {
+	display: none;
+}
+
+
+
+
+.btns:link,
+.btns:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight:400;
+    font-size:20px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.btns-full:link,
+.btns-full:visited,
+input[type=submit]{
+    background-color:forestgreen;
+    border: 1px solid forestgreen;
+    color:#fff;
+    margin-top: 10px;
+}
+.btns-ghost:link,
+.btns-ghost:visited{
+    border: 1px solid forestgreen;
+    color: forestgreen;
+}
+
+.btns:hover,
+.btns:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: rgba(28, 116, 31, 0.47);
+}
+
+.btns-full:hover,
+.btns-full:active,
+input[type=submit]{
+    border: 1px solid #1c771c;
+    
+  
+}
+
+/************
+COOKIES End
+************/

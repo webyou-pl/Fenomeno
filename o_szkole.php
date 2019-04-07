@@ -21,11 +21,11 @@ require_once 'structure/template.php';
                     </p>
                 </article>
                 <footer>
-                <a href="kontakt.php" class="btn btn-full btn-position2">Skontaktuj się z nami</a>
+                <a href="kontakt.php" class="btn btn-full btn-position00">Skontaktuj się z nami</a>
                 </footer>
             </div>
         </section>
-    <?php echo $template_footer; ?>
+    <?php echo $template_footer; ?> 
 </body>
 
 </html>

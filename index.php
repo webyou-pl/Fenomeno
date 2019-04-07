@@ -6,15 +6,14 @@ require_once 'structure/template.php';
 <section class="main">
     <div class="show">
         <video autoplay muted loop class="show__video">
-            <source src="resources/video.mp4" type="video/mp4">
+            <source src="resources/video1.mp4" type="video/mp4">
         </video>
         <div class="show__tekst">
             <span class="show__tekst--first-line">Z nami osiągniesz sukces</span>
             <span class="show__tekst--second-line">Dołącz już dziś</span>
         </div>
     </div>
-</section>
-<!-- start footer -->
+
 <footer class="down_footer">
     <div class="partners">
         <div id="jssor_1" class="footer_slides">
@@ -59,6 +58,7 @@ require_once 'structure/template.php';
     </div>
     <?php echo $template_footer; ?>
 </footer>
-<!-- end footer -->
+
+<script type="text/jscript" src="resources/js/index_cookies_js.js"></script>
 </body>
 </html>

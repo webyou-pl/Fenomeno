@@ -9,6 +9,7 @@
 }
 .gallery{
     margin-top: 50px;
+    margin-bottom: 20px;
     position:relative;
     text-align: center;
     margin-left: 180px;
@@ -16,6 +17,18 @@
     box-shadow: 10px 10px 110px 0px rgba(0,0,0,0.75);
 }
 
+.galleryp{
+    
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+    
 .gallery img {
     margin-bottom: 5px;
     margin-top: 10px;
@@ -34,6 +47,53 @@
 .languages .socjal .logo, a:hover {
     opacity: 1; 
 }
+
+.przycisk:link,
+.przycisk:visited,
+input[type=submit]{
+    display: inline-block;
+    position: inherit;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    font-weight:400;
+    font-size:20px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    
+}
+
+.przycisk-full:link,
+.przycisk-full:visited,
+input[type=submit]{
+    background-color:forestgreen;
+    border: 1px solid forestgreen;
+    color:#fff;
+    margin-top: 10px;
+}
+.przycisk-ghost:link,
+.przycisk-ghost:visited{
+    border: 1px solid forestgreen;
+    color: forestgreen;
+}
+
+.przycisk:hover,
+.przycisk:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: rgba(28, 116, 31, 0.47);
+}
+
+.przycisk-full:hover,
+.przycisk-full:active,
+input[type=submit]{
+    border: 1px solid #1c771c;
+    
+  
+}
+
 @media only screen and (max-width: 750px) {
     .gallery{
         margin-left: auto;
