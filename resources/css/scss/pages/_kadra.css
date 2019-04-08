@@ -106,7 +106,7 @@
         font-size: 20px
     }
         .kadra--mainSection{
-        height: 250vh
+        height: 170vh
     }   
 
  
@@ -152,7 +152,7 @@
         font-size: 20px;
     }
             .kadra--mainSection{
-        height: 250vh
+        height: 115vh
     }   
 /* ---------------------------------------------------------------------- */
 /* Small tablet to big tablets from 768px to 1023px */
@@ -175,7 +175,10 @@
         font-size: 40px;
 
     }
-
+            .kadra--mainSection{
+       
+            height: 160vh !important;}
+    }
 
             
       

@@ -1,9 +1,5 @@
 /* OFERTA */
 
-.oferta-title{
-    color: black;
-}
-
 
 .btn:link,
 .btn:visited,
@@ -75,14 +71,9 @@ input[type=submit]{
     background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh !important;
+    min-height: 110vh !important;
     padding: 0rem 0 2rem 0;
 }
-
-
-
-
-
 
 
 /* TABLE */
@@ -141,7 +132,7 @@ td:hover{
 
     
 
-
+/*
 @media only screen and (max-width: 750px) {
     .oferta{
         background-repeat: no-repeat;
@@ -150,6 +141,7 @@ td:hover{
         height: auto;
     }
 }
+*/
 
 /* ---------------------------------------------------------------------- */
 /* Small phones from 0 to 480px */

@@ -72,11 +72,7 @@ section.contact, section.aboutUs, section.gallery-background{
     padding-bottom: 200px !important;
 }
 
-@media only screen and (min-width: 768px){    
-   section.oferta{
-        margin-bottom: 220px;
-    }
-}
+
 
 section.contact input[type=submit]{
     position: initial;
